@@ -1,1 +1,33 @@
-/* css styles */
+/* HERO LAYOUT */
+.hero {
+  max-width: 650px;
+  margin: 8rem auto;
+  padding: 0 1rem;
+  text-align: left;
+}
+
+/* PHOTO ABOVE NAME */
+.hero-photo {
+  width: 180px;
+  border-radius: 12px;
+  margin-bottom: 1.5rem;
+  display: block;
+}
+
+/* BUTTON STYLE */
+.hero-button {
+  display: inline-block;
+  margin-right: 0.7rem;
+  margin-top: 1.2rem;
+  padding: 0.6rem 1.1rem;
+  background-color: #e7f8ee;
+  color: #2d6a4f;
+  border-radius: 8px;
+  border: 1px solid #c4ead4;
+  text-decoration: none;
+  font-size: 0.95rem;
+}
+
+.hero-button:hover {
+  background-color: #d8f5e4;
+}

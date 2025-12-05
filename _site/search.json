@@ -4,13 +4,20 @@
     "href": "about.html",
     "title": "About",
     "section": "",
-    "text": "About this site\n\n1 + 1\n\n[1] 2\n\n\n\nrunif(10)\n\n [1] 0.268537269 0.083763756 0.278800866 0.882344794 0.471756329 0.204611300\n [7] 0.438679552 0.373130078 0.703114847 0.008849059"
+    "text": "About this site\n\n1 + 1\n\n[1] 2\n\n\n\nrunif(10)\n\n [1] 0.29408489 0.02101071 0.03499053 0.42849970 0.27123867 0.30810811\n [7] 0.37396369 0.17191870 0.84968555 0.11003589"
+  },
+  {
+    "objectID": "work.html",
+    "href": "work.html",
+    "title": "work",
+    "section": "",
+    "text": "coming soon!"
   },
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "personal website",
+    "title": "Hello, I’m Kendall!",
     "section": "",
-    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites.\n\n1 + 1\n\n[1] 2"
+    "text": "Hello, I’m Kendall!\nI’m a fourth Statistics & Data Science major with a Mathematics minor at UCLA. I am originally from the Bay Area, where I grew up surrounded by tech, numbers, and a love for problem solving, all of which eventually led me to pursue data.\nAt UCLA, I split my time between classes, research projects, and campus involvement. Outside of academics, you can find me at the beach, exploring new restaurants, or playing tennis with friends.\nDownload My Resume\nConnect on LinkedIn"
   }
 ]

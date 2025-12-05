@@ -1,11 +1,23 @@
 ---
-title: "personal website"
+title: ""
+format:
+  html:
+    theme: cosmo
+    css: styles.css
 ---
 
-This is a Quarto website.
+<div class="hero">
 
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
+<img src="personal_photo.jpg" class="hero-photo">
 
-```{r}
-1 + 1
-```
+# Hello, I'm Kendall!
+
+I’m a fourth Statistics & Data Science major with a Mathematics minor at UCLA. I am originally from the Bay Area, where I grew up surrounded by tech, numbers, and a love for problem solving, all of which eventually led me to pursue data.
+
+At UCLA, I split my time between classes, research projects, and campus involvement. Outside of academics, you can find me at the beach, exploring new restaurants, or playing tennis with friends. 
+
+[Download My Resume](resume.pdf){.hero-button}
+
+[Connect on LinkedIn](https://www.linkedin.com/in/kendall-keely5468/){.hero-button}
+
+</div>

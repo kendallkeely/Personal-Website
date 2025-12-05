@@ -2,20 +2,18 @@ project:
   type: website
 
 website:
-  title: "personal website"
+  title: "Kendall Keely"
   navbar:
-    left:
-      - href: index.qmd
-        text: Home
+    right:
       - href: about.qmd
-        text: about
+        text: About
+      - href: work.qmd
+        text: Work
+      - href: resume.pdf
+        text: Resume
 
 format:
   html:
-    theme:
-      - cosmo
+    theme: cosmo
     css: styles.css
-    toc: true
-
-
 
