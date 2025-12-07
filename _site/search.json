@@ -4,35 +4,35 @@
     "href": "about.html",
     "title": "About",
     "section": "",
-    "text": "About this site\n\n1 + 1\n\n[1] 2\n\n\n\nrunif(10)\n\n [1] 0.9058242 0.6629386 0.3934778 0.2873233 0.2244620 0.5375766 0.1941575\n [8] 0.6792419 0.6129254 0.6942406"
+    "text": "About this site\n\n1 + 1\n\n[1] 2\n\n\n\nrunif(10)\n\n [1] 0.10100592 0.04615307 0.85089746 0.65832493 0.94953579 0.77591853\n [7] 0.90294365 0.57993127 0.96229767 0.52213131"
   },
   {
     "objectID": "projects.html",
     "href": "projects.html",
     "title": "Projects",
     "section": "",
-    "text": "Welcome to my project portfolio! Here is a selection of work that reflects my interests in data science, statistical modeling, visualization, and real-world analytical problem solving."
+    "text": "Welcome to my project portfolio! Here is a selection of work that reflects my interests in data science, statistical modeling, visualization, and real-world analytical problem solving. Each one of these projects has taught me something new, and reminded me why I love working with data."
   },
   {
-    "objectID": "projects.html#datafest-2025-commercial-real-estate-micro-trends-ucla",
-    "href": "projects.html#datafest-2025-commercial-real-estate-micro-trends-ucla",
+    "objectID": "projects.html#datafest-2025-real-estate-micro-trends-analysis",
+    "href": "projects.html#datafest-2025-real-estate-micro-trends-analysis",
     "title": "Projects",
-    "section": "* DataFest 2025 — Commercial Real Estate Micro-Trends (UCLA)",
-    "text": "* DataFest 2025 — Commercial Real Estate Micro-Trends (UCLA)\nDuring UCLA’s 48-hour DataFest competition, my team and I, named the Dangerous Ducklings, analyzed a large commercial real estate dataset provided by Savills. Our goal was to uncover micro-trends in U.S. office leasing and understand how demand has shifted in the post-pandemic landscape.\nWe focused primarily on Los Angeles County, where we cleaned and merged thousands of lease records, geocoded building addresses, and explored spatial patterns in A-class and O-class office buildings.\nRole: Team Member, Data Science Competitor\nTools: R, tidyverse, ggplot2, sqldf, spatial visualization, data cleaning\nOur project included:\n\nCleaning and merging high-volume leasing data\nGeocoding and mapping building-level spatial patterns\nExploratory data analysis with custom visualizations\nIdentifying meaningful micro-market trends across LA\nDelivering a concise, actionable final presentation\n\nThis experience strengthened my ability to work quickly, collaboratively, and creatively under constraints.\nFinal Presentation: View Slides"
+    "section": "✨ DataFest 2025 — Real Estate Micro-Trends Analysis",
+    "text": "✨ DataFest 2025 — Real Estate Micro-Trends Analysis\nMy first big project comes from a hackathon I participated in at UCLA. During this fast paced, caffeine fueled 48 hours, my team and I, named the Dangerous Ducklings, analyzed a large commercial real estate dataset provided by Savills. Our goal was to uncover micro-trends in U.S. office leasing and understand how demand has shifted in the post-pandemic landscape.\nWe focused primarily on Los Angeles County, where we cleaned and merged thousands of lease records, geocoded building addresses, and explored spatial patterns in A-class and O-class office buildings. Ultimately, we aimed to build a clear model and scoring system that helped our work stand out among the 70+ teams competing.\nRole: Team Member, Data Science Competitor\nTools: R, tidyverse, ggplot2, sqldf, spatial visualization, data cleaning\nOur project included:\n\nCleaning and merging high-volume leasing data\nGeocoding and mapping building-level spatial patterns\nExploratory data analysis with custom visualizations\nIdentifying meaningful micro-market trends across LA\nDelivering a concise, actionable final presentation\n\nThis experience strengthened my ability to work quickly, collaboratively, and creatively under constraints.\nFinal Presentation: View Slides"
   },
   {
-    "objectID": "projects.html#storage-star-summer-internship-capstone-project",
-    "href": "projects.html#storage-star-summer-internship-capstone-project",
+    "objectID": "projects.html#storage-star---capstone-project",
+    "href": "projects.html#storage-star---capstone-project",
     "title": "Projects",
-    "section": "* Storage Star Summer Internship — Capstone Project",
-    "text": "* Storage Star Summer Internship — Capstone Project\nRole: Data Science Intern\nTools: R, tidyverse, modeling, visualization, reporting, Quarto\nFor my summer internship at Storage Star, I completed a data-driven capstone project analyzing rent per square foot trends across Texas, Colorado, Utah, and California markets. My final deliverable included a multi-part analytics report incorporating:\n\nQuarter-over-quarter change detection\n\nPower model fitting and diagnostics\n\nClimate-controlled vs non-climate unit comparisons\n\nOutlier identification and sensitivity analyses\n\nClean, reproducible visualizations using R\n\nThis project emphasized reproducible research, statistical modeling, and real-world business decision support.\nFinal Presentation: View Slides"
+    "section": "✨ Storage Star - Capstone Project",
+    "text": "✨ Storage Star - Capstone Project\nRole: Data Science Intern\nTools: R, tidyverse, modeling, visualization, reporting, Quarto\nDuring my internship at Storage Star this past summer, I completed a data-driven capstone project analyzing rent per square foot trends across Texas, Colorado, Utah, and California markets. My final deliverable included a multi-part analytics report incorporating:\n\nQuarter-over-quarter change detection\n\nPower model fitting and diagnostics\n\nClimate-controlled vs non-climate unit comparisons\n\nOutlier identification and sensitivity analyses\n\nClean, reproducible visualizations using R\n\nThis project emphasized reproducible research, statistical modeling, and real-world business decision support.\nFinal Presentation: View Slides"
   },
   {
-    "objectID": "projects.html#drone-strike-analysis-stats-140xp",
-    "href": "projects.html#drone-strike-analysis-stats-140xp",
+    "objectID": "projects.html#stats-140xp---drone-strike-analysis",
+    "href": "projects.html#stats-140xp---drone-strike-analysis",
     "title": "Projects",
-    "section": "* Drone Strike Analysis — Stats 140XP",
-    "text": "* Drone Strike Analysis — Stats 140XP\nRole: Statistical Analyst\nTools: R, nonparametric testing, visualization, Wilcoxon-Mann-Whitney\nFor our Stats 140XP final project, my group investigated whether U.S. political party control affects the lethality, accuracy, and magnitude of drone strikes in Pakistan, Yemen, and Somalia.\nOur work included:\n\n\nBuilding a cleaned annual dataset from The Guardian’s raw records\n\nCreating derived metrics such as med_people_killed and accuracy ratios\n\nTesting partisan differences using nonparametric methods\n\nVisualizing lethality distributions and time trends\n\nPresenting results in a written report and slide deck\n\nOur findings showed significantly higher lethality under Democratic presidents, but no significant difference in accuracy.\nFinal Poster: View Poster\nFinal Report: View Report"
+    "section": "✨ Stats 140XP - Drone Strike Analysis",
+    "text": "✨ Stats 140XP - Drone Strike Analysis\nRole: Statistical Analyst\nTools: R, nonparametric testing, visualization, Wilcoxon-Mann-Whitney\nFor my Stats 140XP capstone class final project, my group investigated whether U.S. political party control affects the lethality, accuracy, and magnitude of drone strikes in Pakistan, Yemen, and Somalia.\nOur work included:\n\n\nBuilding a cleaned annual dataset from The Guardian’s raw records\n\nCreating derived metrics such as med_people_killed and accuracy ratios\n\nTesting partisan differences using nonparametric methods\n\nVisualizing lethality distributions and time trends\n\nPresenting results in a written report and slide deck\n\nOur findings showed significantly higher lethality under Democratic presidents, but no significant difference in accuracy.\nFinal Poster: View Poster\nFinal Report: View Report"
   },
   {
     "objectID": "work.html",
@@ -46,6 +46,6 @@
     "href": "index.html",
     "title": "Hello, I’m Kendall!",
     "section": "",
-    "text": "Hello, I’m Kendall!\nI’m a fourth Statistics & Data Science major with a Mathematics minor at UCLA. I am originally from the Bay Area, where I grew up surrounded by tech, numbers, and a love for problem solving, all of which eventually led me to pursue data.\nAt UCLA, I split my time between classes, research projects, and campus involvement. Outside of academics, you can find me at the beach, exploring new restaurants, or playing tennis with friends.\n\nDownload My Resume Connect on LinkedIn Git Hub"
+    "text": "Hello, I’m Kendall!\nI’m a fourth Statistics & Data Science major with a Mathematics minor at UCLA. I am originally from the Bay Area, where I grew up surrounded by tech, numbers, and a love for problem solving, all of which eventually led me to pursue data.\nAt UCLA, I split my time between classes, research projects, and campus involvement. Outside of academics,I loved going to the beach, exploring new restaurants, or playing with my two dogs.\n\n⭐ Download My Resume ⭐ ️Connect on LinkedIn ⭐ Git Hub"
   }
 ]

@@ -4,15 +4,15 @@ format:
   html:
     css: styles.css
 ---
-Welcome to my project portfolio! Here is a selection of work that reflects my interests in data science, statistical modeling, visualization, and real-world analytical problem solving.
+Welcome to my project portfolio! Here is a selection of work that reflects my interests in data science, statistical modeling, visualization, and real-world analytical problem solving. Each one of these projects has taught me something new, and reminded me why I love working with data. 
 
 ------------------------------------------------------------------------
 
-## * DataFest 2025 — Commercial Real Estate Micro-Trends (UCLA)
+## ✨ DataFest 2025 — Real Estate Micro-Trends Analysis
 
-During UCLA’s 48-hour DataFest competition, my team and I, named the Dangerous Ducklings, analyzed a large commercial real estate dataset provided by Savills. Our goal was to uncover micro-trends in U.S. office leasing and understand how demand has shifted in the post-pandemic landscape.
+My first big project comes from a hackathon I participated in at UCLA. During this fast paced, caffeine fueled 48 hours, my team and I, named the Dangerous Ducklings, analyzed a large commercial real estate dataset provided by Savills. Our goal was to uncover micro-trends in U.S. office leasing and understand how demand has shifted in the post-pandemic landscape.
 
-We focused primarily on Los Angeles County, where we cleaned and merged thousands of lease records, geocoded building addresses, and explored spatial patterns in A-class and O-class office buildings.
+We focused primarily on Los Angeles County, where we cleaned and merged thousands of lease records, geocoded building addresses, and explored spatial patterns in A-class and O-class office buildings. Ultimately, we aimed to build a clear model and scoring system that helped our work stand out among the 70+ teams competing.
 
 **Role:** Team Member, Data Science Competitor\
 **Tools:** R, tidyverse, ggplot2, sqldf, spatial visualization, data cleaning
@@ -31,12 +31,11 @@ This experience strengthened my ability to work quickly, collaboratively, and cr
 
 ------------------------------------------------------------------------
 
-## * Storage Star Summer Internship — Capstone Project
-
+## ✨ Storage Star - Capstone Project 
 **Role:** Data Science Intern\
 **Tools:** R, tidyverse, modeling, visualization, reporting, Quarto
 
-For my summer internship at Storage Star, I completed a data-driven capstone project analyzing **rent per square foot trends** across Texas, Colorado, Utah, and California markets. My final deliverable included a multi-part analytics report incorporating:
+During my internship at Storage Star this past summer, I completed a data-driven capstone project analyzing **rent per square foot trends** across Texas, Colorado, Utah, and California markets. My final deliverable included a multi-part analytics report incorporating:
 
 -   Quarter-over-quarter change detection\
 -   Power model fitting and diagnostics\
@@ -50,12 +49,12 @@ This project emphasized reproducible research, statistical modeling, and real-wo
 
 ------------------------------------------------------------------------
 
-## * Drone Strike Analysis — Stats 140XP
+## ✨  Stats 140XP - Drone Strike Analysis
 
 **Role:** Statistical Analyst\
 **Tools:** R, nonparametric testing, visualization, Wilcoxon-Mann-Whitney
 
-For our Stats 140XP final project, my group investigated whether U.S. political party control affects the **lethality, accuracy, and magnitude** of drone strikes in Pakistan, Yemen, and Somalia.
+For my Stats 140XP capstone class final project, my group investigated whether U.S. political party control affects the **lethality, accuracy, and magnitude** of drone strikes in Pakistan, Yemen, and Somalia.
 
 Our work included:\
 

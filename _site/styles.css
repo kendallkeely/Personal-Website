@@ -8,7 +8,7 @@
 
 /* Center the photo */
 .hero-photo {
-  width: 230px;             /* slightly larger = better proportion */
+  width: 230px;             /* slightly larger - may need to update */
   border-radius: 12px;
   display: block;
   margin-left: auto;
@@ -22,22 +22,22 @@
   text-align: center;
   margin-top: 1rem;
   margin-bottom: 1rem;
-  font-size: 2.2rem;     /* ensures name feels centered + bold */
+  font-size: 2.2rem;     /* name centered + bold */
   font-weight: 700;
 }
 
-/* UNIVERSAL BUTTON STYLE */
+/* for the button layout */
 .hero-button {
   display: inline-block;
   padding: 0.75rem 1.2rem;
-  margin: 1.2rem 0.7rem 0 0.7rem;   /* even left-right spacing */
+  margin: 1.2rem 0.7rem 0 0.7rem;   /*spacing */
   border-radius: 12px;
   font-size: 0.95rem;
   font-weight: 600;
   text-decoration: none;
-  min-width: 180px;        /* ensures identical width */
+  min-width: 180px;        /* for the same width*/
   text-align: center;
-  background-color: #f8d7e4;   /* soft pink aesthetic */
+  background-color: #f8d7e4;   /* pink - box color*/
   color: #000;
   border: 2px solid #000;     /* black outline */
   transition: 0.2s ease;
@@ -45,9 +45,10 @@
 
 /* Hover effect */
 .hero-button:hover {
-  background-color: #f5bfd4;   /* slightly darker pink */
+  background-color: #f5bfd4;   
 }
 
+/* so the buttons all on the same line */
 .button-row {
   text-align: center;     
   white-space: nowrap;    
