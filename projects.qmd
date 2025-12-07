@@ -1,5 +1,5 @@
 ---
-title: "Projects"
+title: "Projects "
 format:
   html:
     css: styles.css
@@ -72,7 +72,3 @@ Our findings showed significantly higher lethality under Democratic presidents, 
 
 
 ------------------------------------------------------------------------
-
-## Want to see more?
-
-More projects, visualizations, and modeling examples will be added soon!
