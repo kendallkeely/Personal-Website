@@ -1,33 +1,55 @@
 /* HERO LAYOUT */
 .hero {
   max-width: 650px;
-  margin: 8rem auto;
+  margin: 2.5rem auto 3.5rem auto;   /* slightly tighter + well balanced */
   padding: 0 1rem;
-  text-align: left;
+  text-align: left;    /* paragraphs stay left-aligned */
 }
 
-/* PHOTO ABOVE NAME */
+/* Center the photo */
 .hero-photo {
-  width: 180px;
+  width: 230px;             /* slightly larger = better proportion */
   border-radius: 12px;
-  margin-bottom: 1.5rem;
   display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0.5rem;
+  margin-bottom: 1.5rem;
 }
 
-/* BUTTON STYLE */
+/* Center ONLY the name (hero header) */
+.hero h1 {
+  text-align: center;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  font-size: 2.2rem;     /* ensures name feels centered + bold */
+  font-weight: 700;
+}
+
+/* UNIVERSAL BUTTON STYLE */
 .hero-button {
   display: inline-block;
-  margin-right: 0.7rem;
-  margin-top: 1.2rem;
-  padding: 0.6rem 1.1rem;
-  background-color: #e7f8ee;
-  color: #2d6a4f;
-  border-radius: 8px;
-  border: 1px solid #c4ead4;
-  text-decoration: none;
+  padding: 0.75rem 1.2rem;
+  margin: 1.2rem 0.7rem 0 0.7rem;   /* even left-right spacing */
+  border-radius: 12px;
   font-size: 0.95rem;
+  font-weight: 600;
+  text-decoration: none;
+  min-width: 180px;        /* ensures identical width */
+  text-align: center;
+  background-color: #f8d7e4;   /* soft pink aesthetic */
+  color: #000;
+  border: 2px solid #000;     /* black outline */
+  transition: 0.2s ease;
 }
 
+/* Hover effect */
 .hero-button:hover {
-  background-color: #d8f5e4;
+  background-color: #f5bfd4;   /* slightly darker pink */
 }
+
+.button-row {
+  text-align: center;     
+  white-space: nowrap;    
+}
+

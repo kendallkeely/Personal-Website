@@ -5,10 +5,8 @@ website:
   title: "Kendall Keely"
   navbar:
     right:
-      - href: about.qmd
-        text: About
-      - href: work.qmd
-        text: Work
+      - href: projects.qmd
+        text: Projects
       - href: resume.pdf
         text: Resume
 

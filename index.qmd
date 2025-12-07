@@ -16,8 +16,8 @@ I’m a fourth Statistics & Data Science major with a Mathematics minor at UCLA.
 
 At UCLA, I split my time between classes, research projects, and campus involvement. Outside of academics, you can find me at the beach, exploring new restaurants, or playing tennis with friends. 
 
+<div class="button-row">
 [Download My Resume](resume.pdf){.hero-button}
-
-[Connect on LinkedIn](https://www.linkedin.com/in/kendall-keely5468/){.hero-button}
-
+[Connect on LinkedIn](https://www.linkedin.com/in/kendall-keely/){.hero-button}
+[Git Hub](https://github.com/kendallkeely){.hero-button}
 </div>

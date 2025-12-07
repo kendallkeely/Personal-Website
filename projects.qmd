@@ -1,0 +1,78 @@
+---
+title: "Projects"
+format:
+  html:
+    css: styles.css
+---
+Welcome to my project portfolio! Here is a selection of work that reflects my interests in data science, statistical modeling, visualization, and real-world analytical problem solving.
+
+------------------------------------------------------------------------
+
+## * DataFest 2025 — Commercial Real Estate Micro-Trends (UCLA)
+
+During UCLA’s 48-hour DataFest competition, my team and I, named the Dangerous Ducklings, analyzed a large commercial real estate dataset provided by Savills. Our goal was to uncover micro-trends in U.S. office leasing and understand how demand has shifted in the post-pandemic landscape.
+
+We focused primarily on Los Angeles County, where we cleaned and merged thousands of lease records, geocoded building addresses, and explored spatial patterns in A-class and O-class office buildings.
+
+**Role:** Team Member, Data Science Competitor\
+**Tools:** R, tidyverse, ggplot2, sqldf, spatial visualization, data cleaning
+
+Our project included:
+
+- Cleaning and merging high-volume leasing data
+- Geocoding and mapping building-level spatial patterns
+- Exploratory data analysis with custom visualizations
+- Identifying meaningful micro-market trends across LA
+- Delivering a concise, actionable final presentation
+
+This experience strengthened my ability to work quickly, collaboratively, and creatively under constraints.
+
+**Final Presentation:** [View Slides](DataFest_Pres.pdf)
+
+------------------------------------------------------------------------
+
+## * Storage Star Summer Internship — Capstone Project
+
+**Role:** Data Science Intern\
+**Tools:** R, tidyverse, modeling, visualization, reporting, Quarto
+
+For my summer internship at Storage Star, I completed a data-driven capstone project analyzing **rent per square foot trends** across Texas, Colorado, Utah, and California markets. My final deliverable included a multi-part analytics report incorporating:
+
+-   Quarter-over-quarter change detection\
+-   Power model fitting and diagnostics\
+-   Climate-controlled vs non-climate unit comparisons\
+-   Outlier identification and sensitivity analyses\
+-   Clean, reproducible visualizations using R
+
+This project emphasized reproducible research, statistical modeling, and real-world business decision support.
+
+**Final Presentation:** [View Slides](Capstone_Project 2025.pptx)
+
+------------------------------------------------------------------------
+
+## * Drone Strike Analysis — Stats 140XP
+
+**Role:** Statistical Analyst\
+**Tools:** R, nonparametric testing, visualization, Wilcoxon-Mann-Whitney
+
+For our Stats 140XP final project, my group investigated whether U.S. political party control affects the **lethality, accuracy, and magnitude** of drone strikes in Pakistan, Yemen, and Somalia.
+
+Our work included:\
+
+ - Building a cleaned annual dataset from The Guardian’s raw records\
+- Creating derived metrics such as med_people_killed and accuracy ratios\
+- Testing partisan differences using nonparametric methods\
+- Visualizing lethality distributions and time trends\
+- Presenting results in a written report and slide deck
+
+Our findings showed significantly higher lethality under Democratic presidents, but no significant difference in accuracy.
+
+**Final Poster:** [View Poster](140poster.pdf)\
+**Final Report:** [View Report](Stats140_Report.pdf)
+
+
+------------------------------------------------------------------------
+
+## Want to see more?
+
+More projects, visualizations, and modeling examples will be added soon!
