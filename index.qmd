@@ -8,16 +8,16 @@ format:
 
 <div class="hero">
 
-<img src="personal_photo.jpg" class="hero-photo">
+<img src="Kendall_Photo.jpeg" class="hero-photo">
 
 # Hello, I'm Kendall!
 
-I’m a fourth Statistics & Data Science major with a Mathematics minor at UCLA. I am originally from the Bay Area, where I grew up surrounded by tech, numbers, and a love for problem solving, all of which eventually led me to pursue data.
+I’m a recent graduate from the University of California, Los Angeles. I have a degree in Statistics & Data Science major with a Mathematics minor. I am originally from the Bay Area, where I grew up surrounded by tech, numbers, and a love for problem solving, all of which eventually led me to pursue data.
 
 At UCLA, I split my time between classes, research projects, and campus involvement. Outside of academics,I loved going to the beach, exploring new restaurants, or playing with my two dogs. 
 
 <div class="button-row">
-[⭐ Download My Resume](resume.pdf){.hero-button}
+[⭐ Download My Resume](Kendall_Resume.pdf){.hero-button}
 [⭐ ️Connect on LinkedIn](https://www.linkedin.com/in/kendall-keely/){.hero-button}
 [⭐ Git Hub](https://github.com/kendallkeely){.hero-button}
-</div>
+</div
