@@ -32,6 +32,7 @@ This experience strengthened my ability to work quickly, collaboratively, and cr
 ------------------------------------------------------------------------
 
 ## ✨ Storage Star - Capstone Project 
+
 **Role:** Data Science Intern\
 **Tools:** R, tidyverse, modeling, visualization, reporting, Quarto
 

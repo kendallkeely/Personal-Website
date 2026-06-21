@@ -54,3 +54,20 @@
   white-space: nowrap;    
 }
 
+/* Add consistent spacing above and below all project headers */
+.projects-page h2 {
+  margin-top: 3rem !important;   /* space ABOVE each section */
+  margin-bottom: 1.2rem !important;  /* space BELOW each section */
+}
+
+/* Optional: add spacing above the horizontal rules */
+.projects-page hr {
+  margin-top: 2.5rem !important;
+  margin-bottom: 2.5rem !important;
+}
+
+/* Remove huge extra space above project section dividers */
+hr.quarto-hr {
+  margin-top: 0.5rem;      /* reduce space ABOVE header */
+  margin-bottom: 1rem;     /* clean spacing below */
+}
