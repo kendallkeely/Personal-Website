@@ -4,7 +4,7 @@
     "href": "about.html",
     "title": "About",
     "section": "",
-    "text": "About this site\n\n1 + 1\n\n[1] 2\n\n\n\nrunif(10)\n\n [1] 0.32639666 0.49096128 0.84680880 0.94658896 0.40683032 0.30956777\n [7] 0.77894681 0.02407012 0.91027155 0.74972192"
+    "text": "About this site\n\n1 + 1\n\n[1] 2\n\n\n\nrunif(10)\n\n [1] 0.002600458 0.750701195 0.033976919 0.675654819 0.294463331 0.626852613\n [7] 0.467914189 0.222804645 0.839681192 0.456242236"
   },
   {
     "objectID": "projects.html",
@@ -46,6 +46,6 @@
     "href": "index.html",
     "title": "Hello, I’m Kendall!",
     "section": "",
-    "text": "Hello, I’m Kendall!\nI’m a recent graduate from the University of California, Los Angeles. I have a degree in Statistics & Data Science major with a Mathematics minor. I am originally from the Bay Area, where I grew up surrounded by tech, numbers, and a love for problem solving, all of which eventually led me to pursue data.\nAt UCLA, I split my time between classes, research projects, and campus involvement. Outside of academics,I loved going to the beach, exploring new restaurants, or playing with my two dogs.\n\n⭐ Download My Resume ⭐ ️Connect on LinkedIn ⭐ Git Hub"
+    "text": "Hello, I’m Kendall!\nI’m a recent graduate from the University of California, Los Angeles. I have a degree in Statistics & Data Science with a Mathematics minor. I am originally from the Bay Area, where I grew up surrounded by tech, numbers, and a love for problem solving, all of which eventually led me to pursue data.\nAt UCLA, I split my time between classes, research projects, and campus involvement. Outside of academics,I loved going to the beach, exploring new restaurants, or playing with my two dogs.\n\n⭐ Download My Resume ⭐ ️Connect on LinkedIn ⭐ Git Hub\n\nquart"
   }
 ]
