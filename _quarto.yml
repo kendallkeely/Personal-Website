@@ -7,7 +7,7 @@ website:
     right:
       - href: projects.qmd
         text: Projects
-      - href: Resume.pdf
+      - href: Kendall_Resume_June_2026.pdf
         text: Resume
 
 format:
