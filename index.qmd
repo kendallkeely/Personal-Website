@@ -17,7 +17,7 @@ I’m a recent graduate from the University of California, Los Angeles, where I 
 At UCLA, I split my time between classes, research projects, and campus involvement. Outside of academics,I loved going to the beach, exploring new restaurants, or playing with my two dogs. 
 
 <div class="button-row">
-[⭐ Download My Resume](Kendall_Resume.pdf){.hero-button}
+[⭐ Download My Resume](Kendall_Resume_June_2026.pdf){.hero-button}
 [⭐ ️Connect on LinkedIn](https://www.linkedin.com/in/kendall-keely/){.hero-button}
 [⭐ Git Hub](https://github.com/kendallkeely){.hero-button}
 </div>
