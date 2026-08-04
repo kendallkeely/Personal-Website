@@ -5,3 +5,6 @@
 
 /.quarto/
 **/*.quarto_ipynb
+
+# keep the Storage Star capstone (confidential) out of this repo
+*.pptx
