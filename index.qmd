@@ -1,119 +1,142 @@
 ---
 pagetitle: "Kendall Keely — Statistics & Data Science"
-description: "Statistics & Data Science graduate from UCLA. Spatial modeling, nonparametric testing, and reproducible reporting in R."
+description: "Statistics & Data Science graduate from UCLA. Spatial modeling, pricing analysis, and nonparametric testing in SQL, Python and R."
 ---
 
 ```{=html}
-<div class="k-hero">
-  <div class="k-hero-inner">
-    <div class="k-hero-text">
-      <span class="k-eyebrow">Statistics &amp; Data Science · UCLA '26</span>
-      <h1>Hi, I'm <span class="gradient-text">Kendall</span>.</h1>
-      <p class="k-lede">I turn messy, real-world data into tangible insights people can actually utilize, such as <strong>spatial models</strong> of the LA office market, <strong>pricing analysis</strong> across four states, and <strong>nonparametric tests</strong> on twenty years of policy data. Mostly in SQL, Python &amp; R, always reproducible.</p>
-      <div class="k-buttons">
-        <a class="btn-k primary" href="Kendall_Resume_June_2026.pdf">Download résumé</a>
-        <a class="btn-k" href="projects.html">See my work</a>
-        <a class="btn-k" href="https://www.linkedin.com/in/kendall-keely/">LinkedIn</a>
-        <a class="btn-k" href="https://github.com/kendallkeely">GitHub</a>
-      </div>
-      <div class="k-chips">
-        <span class="k-chip">🐶 dog mom</span>
-        <span class="k-chip">🌉 San Francisco</span>
-        <span class="k-chip">🍜 relentless restaurant explorer</span>
-        <span class="k-chip">🀄 mahjong enthusiast</span>
-        <span class="k-chip">📈 will defend ggplot2 in public</span>
-      </div>
+<div class="hero">
+  <div class="wrap">
+    <div class="block">
+      <p class="repl"><span class="pr">&gt;&gt;&gt;</span> <span class="ob">kendall</span>.<span class="fn">hello_world</span>()</p>
+      <h1>Hello, I'm Kendall<span>.</span><span class="cursor" aria-hidden="true"></span></h1>
     </div>
-    <div class="k-photo-wrap">
-      <img class="k-photo" src="images/kendall.jpg" alt="Kendall Keely">
-    </div>
+
+    <p class="intro">I'm a <mark>Statistics &amp; Data Science</mark> graduate from UCLA with a Mathematics minor, originally from San Francisco. I turn messy, real-world data into tangible insights people can actually utilize — spatial models of the LA office market, pricing analysis across four states, and nonparametric tests on twenty years of policy data.</p>
+
+    <p class="intro">Mostly in <mark class="soft">SQL</mark> <mark class="soft">Python</mark> <mark class="soft">R</mark>, always reproducible. Take a look at <a class="inline" href="projects.html">my work</a>, read a bit <a class="inline" href="#about">about me</a>, see the <a class="inline" href="#tools">tools I work with</a>, or <a class="inline" href="#contact">get in touch</a>.</p>
+
+    <hr class="rule">
   </div>
 </div>
 
-<div class="k-section">
-  <div class="k-section-head">
-    <h2>Featured work</h2>
-    <span class="k-hint">Three projects, three very different problems →</span>
+<section class="sec" id="work">
+  <div class="wrap">
+    <div class="sec-head">
+      <h2>Selected work</h2>
+      <span class="hint">Three problems, three approaches →</span>
+    </div>
+    <div class="cards">
+      <a class="card" href="projects.html#datafest">
+        <div class="shot"><img src="images/datafest.jpg" alt="Dangerous Ducklings — DataFest 2025 title slide"></div>
+        <div class="meat">
+          <div class="tag">Hackathon · 48 hours</div>
+          <h3>Pinning Properties: LA Office Micro-Trends</h3>
+          <p>Cleaned and geocoded thousands of Savills lease records to find where post-pandemic office demand actually went. One of 70+ teams.</p>
+        </div>
+      </a>
+      <a class="card" href="projects.html#storage-star">
+        <div class="shot tint"><span>Power Pricing &amp;<br>Rent Dynamics</span></div>
+        <div class="meat">
+          <div class="tag">Internship · Storage Star</div>
+          <h3>Rent per Square Foot Across Four Markets</h3>
+          <p>Power-model fitting, quarter-over-quarter change detection, and climate-controlled unit comparisons across TX, CO, UT and CA.</p>
+        </div>
+      </a>
+      <a class="card" href="projects.html#drone-strikes">
+        <div class="shot"><img src="images/drone.jpg" alt="Research poster on US drone strike lethality"></div>
+        <div class="meat">
+          <div class="tag">Capstone · Stats 140XP</div>
+          <h3>Does Party Control Change Drone Strike Lethality?</h3>
+          <p>Twenty years of Guardian records tested with Wilcoxon-Mann-Whitney. Lethality differed significantly. Accuracy didn't.</p>
+        </div>
+      </a>
+    </div>
   </div>
-  <div class="k-cards">
-    <a class="kcard" href="projects.html#datafest">
-      <div class="kcard-cover"><img src="images/datafest.jpg" alt="Dangerous Ducklings — DataFest 2025 title slide"></div>
-      <div class="kcard-body">
-        <div class="kcard-kicker">Hackathon · 48 hours</div>
-        <h3>Pinning Properties: LA Office Micro-Trends</h3>
-        <p>Cleaned and geocoded thousands of Savills commercial lease records to find where post-pandemic office demand actually went. One of 70+ teams.</p>
-      </div>
-    </a>
-    <a class="kcard" href="projects.html#storage-star">
-      <div class="kcard-cover gradient"><span>Power Pricing &amp;<br>Rent Dynamics</span></div>
-      <div class="kcard-body">
-        <div class="kcard-kicker">Internship · Storage Star</div>
-        <h3>Rent per Square Foot Across Four Markets</h3>
-        <p>Power-model fitting, quarter-over-quarter change detection, and climate-controlled unit comparisons across TX, CO, UT and CA.</p>
-      </div>
-    </a>
-    <a class="kcard" href="projects.html#drone-strikes">
-      <div class="kcard-cover"><img src="images/drone.jpg" alt="Research poster on US drone strike lethality"></div>
-      <div class="kcard-body">
-        <div class="kcard-kicker">Capstone · Stats 140XP</div>
-        <h3>Does Party Control Change Drone Strike Lethality?</h3>
-        <p>Twenty years of Guardian strike records, tested with Wilcoxon-Mann-Whitney. Lethality differed significantly. Accuracy didn't.</p>
-      </div>
-    </a>
-  </div>
-</div>
+</section>
 
-<div class="k-section">
-  <div class="k-section-head">
-    <h2>What I work with</h2>
-    <span class="k-hint">Tools I reach for first</span>
-  </div>
-  <div class="k-toolgroup">
-    <div class="k-toolgroup-label">Data &amp; analytics</div>
-    <div class="k-chips" style="margin-top:0;">
-      <span class="k-chip">R</span>
-      <span class="k-chip">tidyverse</span>
-      <span class="k-chip">ggplot2</span>
-      <span class="k-chip">Quarto</span>
-      <span class="k-chip">SQL / sqldf</span>
-      <span class="k-chip">Python</span>
-      <span class="k-chip">Tableau</span>
-      <span class="k-chip">Spatial analysis &amp; geocoding</span>
-      <span class="k-chip">Nonparametric testing</span>
-      <span class="k-chip">Regression &amp; diagnostics</span>
-      <span class="k-chip">Reproducible reporting</span>
+<section class="about" id="about">
+  <div class="wrap">
+    <div class="sec-label">About</div>
+    <p>I came to data because I like problems where the answer isn't obvious until you clean the thing up and look at it properly. What I care about is whether an analysis actually changes a decision — on my Storage Star internship, the sensitivity analysis mattered more to the people reading my report than the fitted coefficients did.</p>
+    <p>Right now I'm looking for <mark>analytics</mark> <mark>strategy</mark> <mark>engineering</mark> and <mark>BDR</mark> roles where I can keep working on problems with real stakes.</p>
+    <div class="bits">
+      <span class="bit">🐶 dog mom</span>
+      <span class="bit">🌉 San Francisco</span>
+      <span class="bit">🍜 relentless restaurant explorer</span>
+      <span class="bit">🀄 mahjong enthusiast</span>
+      <span class="bit">📈 will defend ggplot2 in public</span>
     </div>
   </div>
-  <div class="k-toolgroup">
-    <div class="k-toolgroup-label">AI skills</div>
-    <div class="k-chips" style="margin-top:0;">
-      <span class="k-chip">Cursor</span>
-      <span class="k-chip">Claude Code</span>
-      <span class="k-chip">Claude</span>
-      <span class="k-chip">ChatGPT</span>
-      <span class="k-chip">GitHub Copilot</span>
-      <span class="k-chip">Notion</span>
-      <span class="k-chip">Notion AI</span>
-      <span class="k-chip">Isaac</span>
-      <span class="k-chip">Perplexity</span>
-      <span class="k-chip">Prompt engineering</span>
-      <span class="k-chip">AI-assisted analysis</span>
-    </div>
-  </div>
-</div>
+</section>
 
-<div class="k-footer">
-  <div class="k-footer-inner">
-    <div>
-      <h3>Let's talk data.</h3>
-      <p>Open to analytics, strategy, engineering, and BDR roles.</p>
-    </div>
-    <div class="k-footer-links">
-      <a href="mailto:kkeely04@gmail.com">kkeely04@gmail.com</a>
-      <a href="https://www.linkedin.com/in/kendall-keely/">LinkedIn</a>
-      <a href="https://github.com/kendallkeely">GitHub</a>
-      <a href="Kendall_Resume_June_2026.pdf">Résumé</a>
+<section class="sec" id="tools">
+  <div class="wrap">
+    <div class="sec-label">Tools I work with</div>
+    <div class="tools">
+      <input type="radio" name="tt" id="tt1" checked>
+      <input type="radio" name="tt" id="tt2">
+      <input type="radio" name="tt" id="tt3">
+
+      <div class="tablist">
+        <label for="tt1">Languages &amp; tools</label>
+        <label for="tt2">Methods</label>
+        <label for="tt3">AI tools</label>
+      </div>
+
+      <div class="panels">
+        <div class="panel p1">
+          <div class="tgrid">
+            <span>SQL</span><span>Python</span><span>R</span><span>tidyverse</span>
+            <span>ggplot2</span><span>Quarto</span><span>Tableau</span><span>Notion</span>
+          </div>
+        </div>
+        <div class="panel p2">
+          <div class="tgrid">
+            <span>Spatial analysis &amp; geocoding</span>
+            <span>Nonparametric testing</span>
+            <span>Regression &amp; diagnostics</span>
+            <span>Reproducible reporting</span>
+          </div>
+        </div>
+        <div class="panel p3">
+          <div class="tgrid">
+            <span>Cursor</span><span>Claude Code</span><span>Claude</span><span>ChatGPT</span>
+            <span>GitHub Copilot</span><span>Notion AI</span><span>Perplexity</span>
+            <span>Isaac</span><span>Prompt engineering</span><span>AI-assisted analysis</span>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
-</div>
+</section>
+
+<section class="contact" id="contact">
+  <div class="wrap">
+    <div class="sec-label">Contact</div>
+    <h2>Let's connect.</h2>
+    <p>Open to analytics, strategy, engineering, and BDR roles.</p>
+    <div class="iconrow">
+      <a class="ib" href="mailto:kkeely04@gmail.com" aria-label="Email Kendall">
+        <span class="disc"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20 4H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2Zm0 4.4-8 5-8-5V6l8 5 8-5v2.4Z"/></svg></span>
+        <span class="cap">Email</span>
+      </a>
+      <a class="ib" href="https://www.linkedin.com/in/kendall-keely/" aria-label="LinkedIn profile">
+        <span class="disc"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.45 20.45h-3.56v-5.57c0-1.33-.03-3.04-1.85-3.04-1.86 0-2.14 1.45-2.14 2.94v5.67H9.35V9h3.42v1.56h.05c.47-.9 1.63-1.85 3.37-1.85 3.6 0 4.26 2.37 4.26 5.46v6.28ZM5.34 7.43a2.07 2.07 0 1 1 0-4.14 2.07 2.07 0 0 1 0 4.14Zm1.78 13.02H3.55V9h3.57v11.45ZM22.22 0H1.77C.79 0 0 .77 0 1.73v20.54C0 23.23.79 24 1.77 24h20.45c.98 0 1.78-.77 1.78-1.73V1.73C24 .77 23.2 0 22.22 0Z"/></svg></span>
+        <span class="cap">LinkedIn</span>
+      </a>
+      <a class="ib" href="https://github.com/kendallkeely" aria-label="GitHub profile">
+        <span class="disc"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 .5C5.73.5.5 5.73.5 12c0 5.08 3.29 9.39 7.86 10.91.58.11.79-.25.79-.56v-1.97c-3.2.7-3.88-1.54-3.88-1.54-.52-1.33-1.28-1.68-1.28-1.68-1.05-.72.08-.71.08-.71 1.16.08 1.77 1.19 1.77 1.19 1.03 1.77 2.7 1.26 3.36.96.1-.75.4-1.26.73-1.55-2.55-.29-5.24-1.28-5.24-5.69 0-1.26.45-2.29 1.19-3.1-.12-.29-.52-1.46.11-3.05 0 0 .96-.31 3.15 1.18a10.9 10.9 0 0 1 5.74 0c2.18-1.49 3.14-1.18 3.14-1.18.63 1.59.23 2.76.11 3.05.74.81 1.19 1.84 1.19 3.1 0 4.42-2.7 5.39-5.26 5.68.42.36.79 1.07.79 2.16v3.2c0 .31.21.68.8.56A11.5 11.5 0 0 0 23.5 12C23.5 5.73 18.27.5 12 .5Z"/></svg></span>
+        <span class="cap">GitHub</span>
+      </a>
+      <a class="ib" href="Kendall_Resume_June_2026.pdf" aria-label="Download résumé">
+        <span class="disc"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8l-6-6Zm2 16H8v-2h8v2Zm0-4H8v-2h8v2Zm-3-5V3.5L18.5 9H13Z"/></svg></span>
+        <span class="cap">Résumé</span>
+      </a>
+    </div>
+    <div class="foot-line">
+      <span>© 2026 Kendall Keely</span>
+      <span>kkeely04@gmail.com</span>
+    </div>
+  </div>
+</section>
 ```
