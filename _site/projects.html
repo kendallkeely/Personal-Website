@@ -6,8 +6,9 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="description" content="Selected data science work: spatial analysis of LA commercial real estate, rent modeling across four states, and nonparametric testing of US drone strike data.">
 
-<title>Projects – Kendall Keely</title>
+<title>Projects — Kendall Keely – Kendall Keely</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -24,36 +25,19 @@ ul.task-list li input[type="checkbox"] {
 
 
 <script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
+<link href="./favicon.svg" rel="icon" type="image/svg+xml">
 <script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
 <script src="site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
 <script src="site_libs/quarto-html/axe/axe-check.js" type="module"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-7b89279ff1a6dce999919e0e67d4d9ec.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
 <link href="site_libs/bootstrap/bootstrap-5b4ad623e5705c0698d39aec6f10cf02.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
-  "location": "navbar",
-  "copy-button": false,
-  "collapse-after": 3,
-  "panel-placement": "end",
-  "type": "overlay",
-  "limit": 50,
-  "keyboard-shortcut": [
-    "f",
-    "/",
-    "s"
-  ],
-  "show-item-context": false,
   "language": {
     "search-no-results-text": "No results",
     "search-matching-documents-text": "matching documents",
@@ -73,7 +57,7 @@ ul.task-list li input[type="checkbox"] {
 <link rel="stylesheet" href="styles.css">
 </head>
 
-<body class="nav-fixed fullcontent quarto-light">
+<body class="nav-fixed quarto-light">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -86,11 +70,16 @@ ul.task-list li input[type="checkbox"] {
     <span class="navbar-title">Kendall Keely</span>
     </a>
   </div>
-            <div id="quarto-search" class="" title="Search"></div>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
   <span class="navbar-toggler-icon"></span>
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="./index.html"> 
+<span class="menu-text">Home</span></a>
+  </li>  
+</ul>
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
     <a class="nav-link active" href="./projects.html" aria-current="page"> 
@@ -98,7 +87,7 @@ ul.task-list li input[type="checkbox"] {
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="./Kendall_Resume_June_2026.pdf"> 
-<span class="menu-text">Resume</span></a>
+<span class="menu-text">Résumé</span></a>
   </li>  
 </ul>
           </div> <!-- /navcollapse -->
@@ -108,108 +97,131 @@ ul.task-list li input[type="checkbox"] {
     </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
     
 <!-- main -->
-<main class="content" id="quarto-document-content">
+<main class="content column-page" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"></header>
 
-<header id="title-block-header" class="quarto-title-block default">
-<div class="quarto-title">
-<h1 class="title">Projects</h1>
+
+
+
+<div class="k-section" style="margin-top:2.5rem;">
+  <div class="k-section-head">
+    <h2>Projects</h2>
+    <span class="k-hint">A hackathon, an internship, and a capstone</span>
+  </div>
+  <p class="k-lede">Three projects that pushed me in different directions — speed and collaboration under a 48-hour clock, business decision support with real money attached, and careful statistical inference on messy public data.</p>
+</div>
+
+<div class="k-section">
+
+  <div class="k-project" id="datafest">
+    <div class="k-project-cover">
+      <img src="images/datafest.jpg" alt="Dangerous Ducklings — Pinning Properties title slide from DataFest 2025">
+    </div>
+    <h2>Pinning Properties: LA Office Micro-Trends</h2>
+    <div class="k-meta">
+      <span class="k-tag role">Team member · DataFest 2025</span>
+      <span class="k-tag">R</span>
+      <span class="k-tag">tidyverse</span>
+      <span class="k-tag">ggplot2</span>
+      <span class="k-tag">sqldf</span>
+      <span class="k-tag">Geocoding</span>
+      <span class="k-tag">Spatial viz</span>
+    </div>
+    <p>UCLA's DataFest gives you a commercial dataset and 48 hours. Ours came from <strong>Savills</strong>: a large national record of U.S. office leasing. My team — the Dangerous Ducklings — set out to find where office demand actually went after the pandemic, rather than just confirming that it fell.</p>
+    <p>We narrowed to Los Angeles County so we could say something specific instead of something vague. That meant cleaning and merging thousands of lease records, geocoding building addresses, and mapping how A-class and O-class buildings diverged block by block.</p>
+    <ul>
+      <li>Cleaned and merged high-volume leasing records across inconsistent address formats</li>
+      <li>Geocoded buildings and mapped leasing activity spatially</li>
+      <li>Built a scoring system to rank micro-markets by demand shift</li>
+      <li>Delivered a presentation judged against 70+ competing teams</li>
+    </ul>
+    <div class="k-takeaway">
+      <strong>What I took from it:</strong> scope discipline. The teams that tried to cover the whole country had nothing concrete to show at hour 48. Narrowing to one county was what made our findings legible.
+    </div>
+    <div class="k-project-links">
+      <a class="btn-k primary" href="DataFest_Pres.pdf">View the slides</a>
+    </div>
+  </div>
+
+  <div class="k-project" id="storage-star">
+    <h2>Power Pricing &amp; Yearly Rent Dynamics</h2>
+    <div class="k-meta">
+      <span class="k-tag role">Data Science Intern · Storage Star</span>
+      <span class="k-tag">R</span>
+      <span class="k-tag">tidyverse</span>
+      <span class="k-tag">Power models</span>
+      <span class="k-tag">Diagnostics</span>
+      <span class="k-tag">Quarto</span>
+    </div>
+    <p>During my summer internship at Storage Star, a self-storage operator, I built a multi-part analytics report on <strong>rent per square foot</strong> across their Texas, Colorado, Utah, and California markets. The question behind it was practical: where is pricing drifting, and is that drift real or noise?</p>
+    <ul>
+      <li>Quarter-over-quarter change detection across markets</li>
+      <li>Power model fitting, with residual and diagnostic checks</li>
+      <li>Climate-controlled vs. non-climate-controlled unit comparisons</li>
+      <li>Outlier identification and sensitivity analysis to test how fragile each conclusion was</li>
+      <li>Reproducible visualizations and reporting built in R and Quarto</li>
+    </ul>
+    <div class="k-takeaway">
+      <strong>What I took from it:</strong> a model is only useful if someone can act on it. The sensitivity analysis mattered more to the people reading my report than the fitted coefficients did.
+    </div>
+    <p class="k-note">The deliverable contains Storage Star's proprietary pricing data, so it isn't published here. Happy to walk through the methodology and findings in conversation.</p>
+  </div>
+
+  <div class="k-project" id="drone-strikes">
+    <div class="k-project-cover">
+      <img src="images/drone-poster.jpg" alt="Research poster: Democrat vs Republican study of US drone strike magnitude and lethality">
+    </div>
+    <h2>Does Party Control Change Drone Strike Lethality?</h2>
+    <div class="k-meta">
+      <span class="k-tag role">Statistical Analyst · Stats 140XP Capstone</span>
+      <span class="k-tag">R</span>
+      <span class="k-tag">Wilcoxon-Mann-Whitney</span>
+      <span class="k-tag">Shapiro-Wilk</span>
+      <span class="k-tag">Levene's test</span>
+    </div>
+    <p>For our capstone, my group asked whether U.S. political party control is associated with the <strong>lethality, accuracy, and magnitude</strong> of drone strikes in Pakistan, Yemen, and Somalia — using two decades of records compiled by The Guardian.</p>
+    <p>The data was annual, non-normal, and unbalanced across administrations, so parametric tests were off the table. We built a cleaned yearly dataset, derived comparable metrics, and used nonparametric methods throughout.</p>
+    <ul>
+      <li>Transformed The Guardian's raw strike records into a clean annual dataset</li>
+      <li>Derived comparable metrics including median people killed and accuracy ratios</li>
+      <li>Tested partisan differences with Wilcoxon-Mann-Whitney, validating assumptions with Shapiro-Wilk and Levene's</li>
+      <li>Examined whether the 2012 "Near Certainty" policy changed outcomes</li>
+    </ul>
+    <div class="k-takeaway">
+      <strong>Findings:</strong> lethality was significantly higher under Democratic presidents, while accuracy showed no significant difference. Strikes after the 2012 policy were significantly less lethal and more accurate. Because the data is observational, we framed all of this as association rather than cause.
+    </div>
+    <div class="k-project-links">
+      <a class="btn-k primary" href="140poster.pdf">View the poster</a>
+      <a class="btn-k" href="Stats140_Report.pdf">Read the full report</a>
+    </div>
+  </div>
+
+</div>
+
+<div class="k-footer">
+  <div class="k-footer-inner">
+    <div>
+      <h3>Let's talk data.</h3>
+      <p>Open to analytics, strategy, engineering, and BDR roles.</p>
+    </div>
+    <div class="k-footer-links">
+      <a href="mailto:kkeely04@gmail.com">kkeely04@gmail.com</a>
+      <a href="https://www.linkedin.com/in/kendall-keely/">LinkedIn</a>
+      <a href="https://github.com/kendallkeely">GitHub</a>
+      <a href="Kendall_Resume_June_2026.pdf">Résumé</a>
+    </div>
+  </div>
 </div>
 
 
 
-<div class="quarto-title-meta">
-
-    
-  
-    
-  </div>
-  
-
-
-</header>
-
-
-<p>Welcome to my project portfolio! Here is a selection of work that reflects my interests in data science, statistical modeling, visualization, and real-world analytical problem solving. Each one of these projects has taught me something new, and reminded me why I love working with data.</p>
-<hr>
-<section id="datafest-2025-real-estate-micro-trends-analysis" class="level2">
-<h2 class="anchored" data-anchor-id="datafest-2025-real-estate-micro-trends-analysis">✨ DataFest 2025 — Real Estate Micro-Trends Analysis</h2>
-<p>My first big project comes from a hackathon I participated in at UCLA. During this fast paced, caffeine fueled 48 hours, my team and I, named the Dangerous Ducklings, analyzed a large commercial real estate dataset provided by Savills. Our goal was to uncover micro-trends in U.S. office leasing and understand how demand has shifted in the post-pandemic landscape.</p>
-<p>We focused primarily on Los Angeles County, where we cleaned and merged thousands of lease records, geocoded building addresses, and explored spatial patterns in A-class and O-class office buildings. Ultimately, we aimed to build a clear model and scoring system that helped our work stand out among the 70+ teams competing.</p>
-<p><strong>Role:</strong> Team Member, Data Science Competitor<br>
-<strong>Tools:</strong> R, tidyverse, ggplot2, sqldf, spatial visualization, data cleaning</p>
-<p>Our project included:</p>
-<ul>
-<li>Cleaning and merging high-volume leasing data</li>
-<li>Geocoding and mapping building-level spatial patterns</li>
-<li>Exploratory data analysis with custom visualizations</li>
-<li>Identifying meaningful micro-market trends across LA</li>
-<li>Delivering a concise, actionable final presentation</li>
-</ul>
-<p>This experience strengthened my ability to work quickly, collaboratively, and creatively under constraints.</p>
-<p><strong>Final Presentation:</strong> <a href="DataFest_Pres.pdf">View Slides</a></p>
-<hr>
-</section>
-<section id="storage-star---capstone-project" class="level2">
-<h2 class="anchored" data-anchor-id="storage-star---capstone-project">✨ Storage Star - Capstone Project</h2>
-<p><strong>Role:</strong> Data Science Intern<br>
-<strong>Tools:</strong> R, tidyverse, modeling, visualization, reporting, Quarto</p>
-<p>During my internship at Storage Star this past summer, I completed a data-driven capstone project analyzing <strong>rent per square foot trends</strong> across Texas, Colorado, Utah, and California markets. My final deliverable included a multi-part analytics report incorporating:</p>
-<ul>
-<li>Quarter-over-quarter change detection<br>
-</li>
-<li>Power model fitting and diagnostics<br>
-</li>
-<li>Climate-controlled vs non-climate unit comparisons<br>
-</li>
-<li>Outlier identification and sensitivity analyses<br>
-</li>
-<li>Clean, reproducible visualizations using R</li>
-</ul>
-<p>This project emphasized reproducible research, statistical modeling, and real-world business decision support.</p>
-<p><strong>Final Presentation:</strong> <a href="Capstone_Project 2025.pptx">View Slides</a></p>
-<hr>
-</section>
-<section id="stats-140xp---drone-strike-analysis" class="level2">
-<h2 class="anchored" data-anchor-id="stats-140xp---drone-strike-analysis">✨ Stats 140XP - Drone Strike Analysis</h2>
-<p><strong>Role:</strong> Statistical Analyst<br>
-<strong>Tools:</strong> R, nonparametric testing, visualization, Wilcoxon-Mann-Whitney</p>
-<p>For my Stats 140XP capstone class final project, my group investigated whether U.S. political party control affects the <strong>lethality, accuracy, and magnitude</strong> of drone strikes in Pakistan, Yemen, and Somalia.</p>
-<p>Our work included:<br>
-</p>
-<ul>
-<li>Building a cleaned annual dataset from The Guardian’s raw records<br>
-</li>
-<li>Creating derived metrics such as med_people_killed and accuracy ratios<br>
-</li>
-<li>Testing partisan differences using nonparametric methods<br>
-</li>
-<li>Visualizing lethality distributions and time trends<br>
-</li>
-<li>Presenting results in a written report and slide deck</li>
-</ul>
-<p>Our findings showed significantly higher lethality under Democratic presidents, but no significant difference in accuracy.</p>
-<p><strong>Final Poster:</strong> <a href="140poster.pdf">View Poster</a><br>
-<strong>Final Report:</strong> <a href="Stats140_Report.pdf">View Report</a></p>
-<hr>
-
-
-</section>
-
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
-    const icon = "";
-    const anchorJS = new window.AnchorJS();
-    anchorJS.options = {
-      placement: 'right',
-      icon: icon
-    };
-    anchorJS.add('.anchored');
     const isCodeAnnotation = (el) => {
       for (const clz of el.classList) {
         if (clz.startsWith('code-annotation-')) {                     
@@ -274,7 +286,7 @@ ul.task-list li input[type="checkbox"] {
     }
       var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
       var mailtoRegex = new RegExp(/^mailto:/);
-        var filterRegex = new RegExp('/' + window.location.host + '/');
+        var filterRegex = new RegExp("https:\/\/kendallkeely\.netlify\.app");
       var isInternal = (href) => {
           return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
       }
@@ -288,6 +300,11 @@ ul.task-list li input[type="checkbox"] {
           if (link.dataset.originalHref !== undefined) {
             link.href = link.dataset.originalHref;
           }
+            // target, if specified
+            link.setAttribute("target", "_blank");
+            if (link.getAttribute("rel") === null) {
+              link.setAttribute("rel", "noopener");
+            }
         }
       }
     function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {

@@ -1,17 +1,29 @@
 project:
   type: website
+  output-dir: _site
 
 website:
   title: "Kendall Keely"
+  favicon: favicon.svg
+  site-url: https://kendallkeely.netlify.app
+  description: "Statistics & Data Science graduate from UCLA."
+  search: false
   navbar:
+    pinned: true
+    left:
+      - href: index.qmd
+        text: Home
     right:
       - href: projects.qmd
         text: Projects
       - href: Kendall_Resume_June_2026.pdf
-        text: Resume
+        text: Résumé
 
 format:
   html:
     theme: cosmo
     css: styles.css
-
+    toc: false
+    page-layout: full
+    anchor-sections: false
+    link-external-newwindow: true

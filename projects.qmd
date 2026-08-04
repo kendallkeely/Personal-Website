@@ -1,73 +1,116 @@
 ---
-title: "Projects "
-format:
-  html:
-    css: styles.css
+pagetitle: "Projects — Kendall Keely"
+description: "Selected data science work: spatial analysis of LA commercial real estate, rent modeling across four states, and nonparametric testing of US drone strike data."
 ---
-Welcome to my project portfolio! Here is a selection of work that reflects my interests in data science, statistical modeling, visualization, and real-world analytical problem solving. Each one of these projects has taught me something new, and reminded me why I love working with data. 
 
-------------------------------------------------------------------------
+```{=html}
+<div class="k-section" style="margin-top:2.5rem;">
+  <div class="k-section-head">
+    <h2>Projects</h2>
+    <span class="k-hint">A hackathon, an internship, and a capstone</span>
+  </div>
+  <p class="k-lede">Three projects that pushed me in different directions — speed and collaboration under a 48-hour clock, business decision support with real money attached, and careful statistical inference on messy public data.</p>
+</div>
 
-## ✨ DataFest 2025 — Real Estate Micro-Trends Analysis
+<div class="k-section">
 
-My first big project comes from a hackathon I participated in at UCLA. During this fast paced, caffeine fueled 48 hours, my team and I, named the Dangerous Ducklings, analyzed a large commercial real estate dataset provided by Savills. Our goal was to uncover micro-trends in U.S. office leasing and understand how demand has shifted in the post-pandemic landscape.
+  <div class="k-project" id="datafest">
+    <div class="k-project-cover">
+      <img src="images/datafest.jpg" alt="Dangerous Ducklings — Pinning Properties title slide from DataFest 2025">
+    </div>
+    <h2>Pinning Properties: LA Office Micro-Trends</h2>
+    <div class="k-meta">
+      <span class="k-tag role">Team member · DataFest 2025</span>
+      <span class="k-tag">R</span>
+      <span class="k-tag">tidyverse</span>
+      <span class="k-tag">ggplot2</span>
+      <span class="k-tag">sqldf</span>
+      <span class="k-tag">Geocoding</span>
+      <span class="k-tag">Spatial viz</span>
+    </div>
+    <p>UCLA's DataFest gives you a commercial dataset and 48 hours. Ours came from <strong>Savills</strong>: a large national record of U.S. office leasing. My team — the Dangerous Ducklings — set out to find where office demand actually went after the pandemic, rather than just confirming that it fell.</p>
+    <p>We narrowed to Los Angeles County so we could say something specific instead of something vague. That meant cleaning and merging thousands of lease records, geocoding building addresses, and mapping how A-class and O-class buildings diverged block by block.</p>
+    <ul>
+      <li>Cleaned and merged high-volume leasing records across inconsistent address formats</li>
+      <li>Geocoded buildings and mapped leasing activity spatially</li>
+      <li>Built a scoring system to rank micro-markets by demand shift</li>
+      <li>Delivered a presentation judged against 70+ competing teams</li>
+    </ul>
+    <div class="k-takeaway">
+      <strong>What I took from it:</strong> scope discipline. The teams that tried to cover the whole country had nothing concrete to show at hour 48. Narrowing to one county was what made our findings legible.
+    </div>
+    <div class="k-project-links">
+      <a class="btn-k primary" href="DataFest_Pres.pdf">View the slides</a>
+    </div>
+  </div>
 
-We focused primarily on Los Angeles County, where we cleaned and merged thousands of lease records, geocoded building addresses, and explored spatial patterns in A-class and O-class office buildings. Ultimately, we aimed to build a clear model and scoring system that helped our work stand out among the 70+ teams competing.
+  <div class="k-project" id="storage-star">
+    <h2>Power Pricing &amp; Yearly Rent Dynamics</h2>
+    <div class="k-meta">
+      <span class="k-tag role">Data Science Intern · Storage Star</span>
+      <span class="k-tag">R</span>
+      <span class="k-tag">tidyverse</span>
+      <span class="k-tag">Power models</span>
+      <span class="k-tag">Diagnostics</span>
+      <span class="k-tag">Quarto</span>
+    </div>
+    <p>During my summer internship at Storage Star, a self-storage operator, I built a multi-part analytics report on <strong>rent per square foot</strong> across their Texas, Colorado, Utah, and California markets. The question behind it was practical: where is pricing drifting, and is that drift real or noise?</p>
+    <ul>
+      <li>Quarter-over-quarter change detection across markets</li>
+      <li>Power model fitting, with residual and diagnostic checks</li>
+      <li>Climate-controlled vs. non-climate-controlled unit comparisons</li>
+      <li>Outlier identification and sensitivity analysis to test how fragile each conclusion was</li>
+      <li>Reproducible visualizations and reporting built in R and Quarto</li>
+    </ul>
+    <div class="k-takeaway">
+      <strong>What I took from it:</strong> a model is only useful if someone can act on it. The sensitivity analysis mattered more to the people reading my report than the fitted coefficients did.
+    </div>
+    <p class="k-note">The deliverable contains Storage Star's proprietary pricing data, so it isn't published here. Happy to walk through the methodology and findings in conversation.</p>
+  </div>
 
-**Role:** Team Member, Data Science Competitor\
-**Tools:** R, tidyverse, ggplot2, sqldf, spatial visualization, data cleaning
+  <div class="k-project" id="drone-strikes">
+    <div class="k-project-cover">
+      <img src="images/drone-poster.jpg" alt="Research poster: Democrat vs Republican study of US drone strike magnitude and lethality">
+    </div>
+    <h2>Does Party Control Change Drone Strike Lethality?</h2>
+    <div class="k-meta">
+      <span class="k-tag role">Statistical Analyst · Stats 140XP Capstone</span>
+      <span class="k-tag">R</span>
+      <span class="k-tag">Wilcoxon-Mann-Whitney</span>
+      <span class="k-tag">Shapiro-Wilk</span>
+      <span class="k-tag">Levene's test</span>
+    </div>
+    <p>For our capstone, my group asked whether U.S. political party control is associated with the <strong>lethality, accuracy, and magnitude</strong> of drone strikes in Pakistan, Yemen, and Somalia — using two decades of records compiled by The Guardian.</p>
+    <p>The data was annual, non-normal, and unbalanced across administrations, so parametric tests were off the table. We built a cleaned yearly dataset, derived comparable metrics, and used nonparametric methods throughout.</p>
+    <ul>
+      <li>Transformed The Guardian's raw strike records into a clean annual dataset</li>
+      <li>Derived comparable metrics including median people killed and accuracy ratios</li>
+      <li>Tested partisan differences with Wilcoxon-Mann-Whitney, validating assumptions with Shapiro-Wilk and Levene's</li>
+      <li>Examined whether the 2012 "Near Certainty" policy changed outcomes</li>
+    </ul>
+    <div class="k-takeaway">
+      <strong>Findings:</strong> lethality was significantly higher under Democratic presidents, while accuracy showed no significant difference. Strikes after the 2012 policy were significantly less lethal and more accurate. Because the data is observational, we framed all of this as association rather than cause.
+    </div>
+    <div class="k-project-links">
+      <a class="btn-k primary" href="140poster.pdf">View the poster</a>
+      <a class="btn-k" href="Stats140_Report.pdf">Read the full report</a>
+    </div>
+  </div>
 
-Our project included:
+</div>
 
-- Cleaning and merging high-volume leasing data
-- Geocoding and mapping building-level spatial patterns
-- Exploratory data analysis with custom visualizations
-- Identifying meaningful micro-market trends across LA
-- Delivering a concise, actionable final presentation
-
-This experience strengthened my ability to work quickly, collaboratively, and creatively under constraints.
-
-**Final Presentation:** [View Slides](DataFest_Pres.pdf)
-
-------------------------------------------------------------------------
-
-## ✨ Storage Star - Capstone Project 
-
-**Role:** Data Science Intern\
-**Tools:** R, tidyverse, modeling, visualization, reporting, Quarto
-
-During my internship at Storage Star this past summer, I completed a data-driven capstone project analyzing **rent per square foot trends** across Texas, Colorado, Utah, and California markets. My final deliverable included a multi-part analytics report incorporating:
-
--   Quarter-over-quarter change detection\
--   Power model fitting and diagnostics\
--   Climate-controlled vs non-climate unit comparisons\
--   Outlier identification and sensitivity analyses\
--   Clean, reproducible visualizations using R
-
-This project emphasized reproducible research, statistical modeling, and real-world business decision support.
-
-**Final Presentation:** [View Slides](Capstone_Project 2025.pptx)
-
-------------------------------------------------------------------------
-
-## ✨  Stats 140XP - Drone Strike Analysis
-
-**Role:** Statistical Analyst\
-**Tools:** R, nonparametric testing, visualization, Wilcoxon-Mann-Whitney
-
-For my Stats 140XP capstone class final project, my group investigated whether U.S. political party control affects the **lethality, accuracy, and magnitude** of drone strikes in Pakistan, Yemen, and Somalia.
-
-Our work included:\
-
- - Building a cleaned annual dataset from The Guardian’s raw records\
-- Creating derived metrics such as med_people_killed and accuracy ratios\
-- Testing partisan differences using nonparametric methods\
-- Visualizing lethality distributions and time trends\
-- Presenting results in a written report and slide deck
-
-Our findings showed significantly higher lethality under Democratic presidents, but no significant difference in accuracy.
-
-**Final Poster:** [View Poster](140poster.pdf)\
-**Final Report:** [View Report](Stats140_Report.pdf)
-
-------------------------------------------------------------------------
+<div class="k-footer">
+  <div class="k-footer-inner">
+    <div>
+      <h3>Let's talk data.</h3>
+      <p>Open to analytics, strategy, engineering, and BDR roles.</p>
+    </div>
+    <div class="k-footer-links">
+      <a href="mailto:kkeely04@gmail.com">kkeely04@gmail.com</a>
+      <a href="https://www.linkedin.com/in/kendall-keely/">LinkedIn</a>
+      <a href="https://github.com/kendallkeely">GitHub</a>
+      <a href="Kendall_Resume_June_2026.pdf">Résumé</a>
+    </div>
+  </div>
+</div>
+```

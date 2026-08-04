@@ -1,73 +1,522 @@
-/* HERO LAYOUT */
-.hero {
-  max-width: 650px;
-  margin: 2.5rem auto 3.5rem auto;   /* slightly tighter + well balanced */
-  padding: 0 1rem;
-  text-align: left;    /* paragraphs stay left-aligned */
+/* ==========================================================================
+   Kendall Keely — portfolio design system
+   Custom classes are k- / kcard- prefixed to avoid clashing with Bootstrap.
+   ========================================================================== */
+
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600;700&display=swap');
+
+:root {
+  /* palette */
+  --ink:        #16132a;
+  --ink-soft:   #3d3757;
+  --muted:      #6f6a88;
+  --line:       #ece8f2;
+  --bg:         #ffffff;
+  --bg-soft:    #faf7fc;
+
+  --pink:       #ff2d8f;
+  --violet:     #7b3ff2;
+
+  --grad:       linear-gradient(100deg, #ff2d8f 0%, #b02ee0 48%, #7b3ff2 100%);
+  --grad-soft:  linear-gradient(100deg, #fff0f7 0%, #f4ecff 100%);
+
+  /* type */
+  --display: 'Space Grotesk', ui-sans-serif, system-ui, sans-serif;
+  --body:    'Inter', ui-sans-serif, system-ui, -apple-system, sans-serif;
+
+  /* geometry */
+  --r-sm: 10px;
+  --r-md: 16px;
+  --r-lg: 24px;
+  --shadow-sm: 0 2px 8px rgba(22, 19, 42, .06);
+  --shadow-md: 0 10px 30px rgba(22, 19, 42, .10);
+  --shadow-lg: 0 24px 60px rgba(22, 19, 42, .16);
 }
 
-/* Center the photo */
-.hero-photo {
-  width: 230px;             /* slightly larger - may need to update */
-  border-radius: 12px;
+/* --------------------------------------------------------------- base ---- */
+
+html, body { overflow-x: hidden; }   /* contains the full-bleed hero/footer bands */
+
+body {
+  font-family: var(--body);
+  color: var(--ink);
+  background: var(--bg);
+  font-size: 1.02rem;
+  line-height: 1.65;
+  -webkit-font-smoothing: antialiased;
+}
+
+h1, h2, h3, h4 {
+  font-family: var(--display);
+  letter-spacing: -0.02em;
+  color: var(--ink);
+}
+
+/* Quarto/cosmo underlines every h2; our sections draw their own rules */
+h2 { border-bottom: none; padding-bottom: 0; }
+
+a { color: var(--violet); text-underline-offset: 3px; }
+a:hover { color: var(--pink); }
+
+/* page-layout: full gives us the whole width; individual sections set the
+   measure themselves so the hero/footer can run full-bleed. */
+main.content, #quarto-document-content {
+  max-width: none;
+  padding-inline: 1.5rem;
+  padding-top: 0;
+}
+
+/* the hero supplies its own top padding — drop Quarto's */
+main.content > .k-hero:first-child { margin-top: 0; }
+
+.gradient-text {
+  background: var(--grad);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+/* ------------------------------------------------------------- navbar ---- */
+
+.navbar {
+  background: rgba(255, 255, 255, .8) !important;
+  backdrop-filter: saturate(180%) blur(14px);
+  -webkit-backdrop-filter: saturate(180%) blur(14px);
+  border-bottom: 1px solid var(--line);
+  padding-block: .5rem;
+}
+
+.navbar .navbar-brand {
+  font-family: var(--display);
+  font-weight: 700;
+  font-size: 1.12rem;
+  letter-spacing: -0.02em;
+  color: var(--ink) !important;
+}
+
+.navbar .nav-link {
+  font-family: var(--display);
+  font-weight: 500;
+  color: var(--ink-soft) !important;
+  border-radius: 999px;
+  padding: .35rem .85rem !important;
+  transition: background .18s ease, color .18s ease;
+}
+.navbar .nav-link:hover,
+.navbar .nav-link.active {
+  color: var(--violet) !important;
+  background: #f4ecff;
+}
+
+/* --------------------------------------------------------------- hero ---- */
+
+.k-hero {
+  position: relative;
+  overflow: hidden;
+  background: var(--grad-soft);
+  border-bottom: 1px solid var(--line);
+  margin-inline: calc(50% - 50vw);
+  padding: 4.25rem calc(50vw - 50%) 3.75rem;
+  margin-bottom: 4rem;
+}
+
+/* soft colour blobs for depth */
+.k-hero::before,
+.k-hero::after {
+  content: "";
+  position: absolute;
+  border-radius: 50%;
+  filter: blur(70px);
+  opacity: .5;
+  pointer-events: none;
+}
+.k-hero::before {
+  width: 380px; height: 380px;
+  background: #ffb3d9;
+  top: -140px; right: 6%;
+}
+.k-hero::after {
+  width: 320px; height: 320px;
+  background: #c9b6ff;
+  bottom: -160px; left: 8%;
+}
+
+.k-hero-inner {
+  position: relative;
+  z-index: 1;
+  max-width: 1040px;
+  margin-inline: auto;
+  display: flex;
+  gap: 3.5rem;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.k-hero-text { flex: 1 1 auto; min-width: 0; }
+
+.k-eyebrow {
+  display: inline-block;
+  font-family: var(--display);
+  font-size: .78rem;
+  font-weight: 600;
+  letter-spacing: .1em;
+  text-transform: uppercase;
+  color: var(--violet);
+  background: #fff;
+  border: 1px solid #e5d8ff;
+  border-radius: 999px;
+  padding: .35rem .85rem;
+  margin-bottom: 1.1rem;
+  box-shadow: var(--shadow-sm);
+}
+
+.k-hero h1 {
+  font-size: clamp(2.4rem, 4.6vw, 3.6rem);
+  font-weight: 700;
+  line-height: 1.05;
+  margin: 0 0 1rem;
+}
+
+.k-lede {
+  font-size: 1.1rem;
+  color: var(--ink-soft);
+  max-width: 36rem;
+  margin-bottom: 1.6rem;
+}
+.k-lede strong { color: var(--ink); font-weight: 600; }
+
+/* photo with offset gradient frame */
+.k-photo-wrap { position: relative; flex: 0 0 auto; }
+.k-photo-wrap::before {
+  content: "";
+  position: absolute;
+  inset: 14px -14px -14px 14px;
+  border-radius: var(--r-lg);
+  background: var(--grad);
+  z-index: 0;
+}
+.k-photo {
+  position: relative;
+  z-index: 1;
   display: block;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 0.5rem;
+  width: 240px;
+  height: 240px;
+  object-fit: cover;
+  border-radius: var(--r-lg);
+  border: 4px solid #fff;
+  box-shadow: var(--shadow-md);
+}
+
+/* ------------------------------------------------------------ buttons ---- */
+
+.k-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: .6rem;
+}
+
+.btn-k {
+  display: inline-flex;
+  align-items: center;
+  white-space: nowrap;
+  font-family: var(--display);
+  font-weight: 600;
+  font-size: .93rem;
+  padding: .62rem 1.2rem;
+  border-radius: 999px;
+  text-decoration: none !important;
+  border: 1.5px solid var(--line);
+  background: #fff;
+  color: var(--ink) !important;
+  box-shadow: var(--shadow-sm);
+  transition: transform .18s ease, box-shadow .18s ease, border-color .18s ease;
+}
+.btn-k:hover {
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-md);
+  border-color: #e0cffb;
+  color: var(--ink) !important;
+}
+
+.btn-k.primary {
+  background: var(--grad);
+  border-color: transparent;
+  color: #fff !important;
+  box-shadow: 0 6px 18px rgba(176, 46, 224, .34);
+}
+.btn-k.primary:hover {
+  box-shadow: 0 12px 28px rgba(176, 46, 224, .42);
+  color: #fff !important;
+}
+
+/* --------------------------------------------------------------- chips --- */
+
+.k-chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: .5rem;
+  margin-top: 1.6rem;
+}
+
+.k-chip {
+  white-space: nowrap;
+  font-size: .85rem;
+  font-weight: 500;
+  color: var(--ink-soft);
+  background: #fff;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  padding: .3rem .8rem;
+  box-shadow: var(--shadow-sm);
+}
+
+/* --------------------------------------------------------- tool groups --- */
+
+.k-toolgroup { margin-bottom: 1.9rem; }
+.k-toolgroup:last-child { margin-bottom: 0; }
+
+.k-toolgroup-label {
+  font-family: var(--display);
+  font-size: .74rem;
+  font-weight: 600;
+  letter-spacing: .1em;
+  text-transform: uppercase;
+  color: var(--pink);
+  margin-bottom: .75rem;
+}
+
+/* ------------------------------------------------------------ sections --- */
+
+.k-section {
+  max-width: 1040px;
+  margin: 0 auto 4.5rem;
+}
+
+.k-section-head {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 1rem;
+  margin-bottom: 1.9rem;
+  padding-bottom: .85rem;
+  border-bottom: 2px solid var(--line);
+}
+
+.k-section-head h2 {
+  font-size: 1.8rem;
+  font-weight: 700;
+  margin: 0;
+}
+
+.k-hint { font-size: .92rem; color: var(--muted); white-space: nowrap; }
+
+/* ---------------------------------------------------------------- cards -- */
+
+.k-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 1.5rem;
+  align-items: stretch;
+}
+
+.kcard {
+  display: flex;
+  flex-direction: column;
+  background: #fff;
+  border: 1px solid var(--line);
+  border-radius: var(--r-md);
+  overflow: hidden;
+  text-decoration: none !important;
+  color: inherit !important;
+  box-shadow: var(--shadow-sm);
+  transition: transform .2s ease, box-shadow .2s ease, border-color .2s ease;
+}
+.kcard:hover {
+  transform: translateY(-5px);
+  box-shadow: var(--shadow-lg);
+  border-color: #e6d8fb;
+  color: inherit !important;
+}
+
+.kcard-cover {
+  aspect-ratio: 16 / 9;      /* matches the slide/poster crops exactly */
+  overflow: hidden;
+  background: var(--bg-soft);
+  border-bottom: 1px solid var(--line);
+}
+.kcard-cover img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform .45s ease;
+}
+.kcard:hover .kcard-cover img { transform: scale(1.05); }
+
+/* gradient stand-in cover for the project with no shareable artifact */
+.kcard-cover.gradient {
+  display: grid;
+  place-items: center;
+  background: var(--grad);
+  color: #fff;
+}
+.kcard-cover.gradient span {
+  font-family: var(--display);
+  font-weight: 700;
+  font-size: 1.3rem;
+  text-align: center;
+  padding: 1rem 1.5rem;
+  line-height: 1.3;
+}
+
+.kcard-body { padding: 1.15rem 1.25rem 1.35rem; }
+
+.kcard-kicker {
+  font-family: var(--display);
+  font-size: .72rem;
+  font-weight: 600;
+  letter-spacing: .09em;
+  text-transform: uppercase;
+  color: var(--pink);
+  margin-bottom: .4rem;
+}
+
+.kcard-body h3 {
+  font-size: 1.08rem;
+  font-weight: 600;
+  margin: 0 0 .45rem;
+  line-height: 1.32;
+}
+
+.kcard-body p {
+  font-size: .92rem;
+  color: var(--muted);
+  margin: 0;
+  line-height: 1.55;
+}
+
+/* ----------------------------------------------------------- proj pages -- */
+
+.k-project {
+  scroll-margin-top: 90px;
+  margin-bottom: 4.5rem;
+  padding-bottom: 4.5rem;
+  border-bottom: 1px solid var(--line);
+}
+.k-project:last-child { border-bottom: 0; margin-bottom: 0; padding-bottom: 0; }
+
+.k-project-cover {
+  max-width: 46rem;          /* align the cover to the prose measure */
+  border-radius: var(--r-md);
+  overflow: hidden;
+  border: 1px solid var(--line);
+  box-shadow: var(--shadow-md);
+  margin-bottom: 1.85rem;
+}
+.k-project-cover img { width: 100%; display: block; }
+
+.k-project h2 {
+  font-size: 1.85rem;
+  font-weight: 700;
+  margin: 0 0 .7rem;
+  line-height: 1.18;
+}
+
+.k-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: .4rem;
   margin-bottom: 1.5rem;
 }
 
-/* Center ONLY the name (hero header) */
-.hero h1 {
-  text-align: center;
-  margin-top: 1rem;
-  margin-bottom: 1rem;
-  font-size: 2.2rem;     /* name centered + bold */
-  font-weight: 700;
-}
-
-/* for the button layout */
-.hero-button {
-  display: inline-block;
-  padding: 0.75rem 1.2rem;
-  margin: 1.2rem 0.7rem 0 0.7rem;   /*spacing */
-  border-radius: 12px;
-  font-size: 0.95rem;
+.k-tag {
+  font-family: var(--display);
+  font-size: .78rem;
   font-weight: 600;
+  color: var(--violet);
+  background: #f4ecff;
+  border-radius: 999px;
+  padding: .28rem .72rem;
+}
+.k-tag.role { color: var(--pink); background: #ffeef6; }
+
+/* narrower measure for long-form prose */
+.k-project p,
+.k-project ul { max-width: 46rem; }
+
+.k-project ul { padding-left: 1.15rem; margin-bottom: 1.2rem; }
+.k-project li { margin-bottom: .4rem; }
+
+.k-takeaway {
+  border-left: 4px solid var(--pink);
+  background: var(--bg-soft);
+  padding: 1rem 1.3rem;
+  border-radius: 0 var(--r-sm) var(--r-sm) 0;
+  margin: 1.6rem 0;
+  max-width: 46rem;
+}
+.k-takeaway strong { color: var(--ink); }
+
+.k-project-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: .6rem;
+  margin-top: 1.6rem;
+}
+
+.k-note {
+  font-size: .9rem;
+  color: var(--muted);
+  font-style: italic;
+  max-width: 46rem;
+}
+
+/* -------------------------------------------------------------- footer --- */
+
+.k-footer {
+  background: var(--ink);
+  color: #cfc9e4;
+  margin-inline: calc(50% - 50vw);
+  margin-top: 5rem;
+  padding: 3rem calc(50vw - 50%);
+}
+
+.k-footer-inner {
+  max-width: 1040px;
+  margin-inline: auto;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem 2rem;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.k-footer-inner h3 { font-size: 1.4rem; color: #fff; margin: 0 0 .3rem; }
+.k-footer-inner p { margin: 0; font-size: .95rem; }
+
+.k-footer-links { display: flex; flex-wrap: wrap; gap: 1.25rem; }
+.k-footer-links a {
+  color: #fff;
+  font-weight: 500;
   text-decoration: none;
-  min-width: 180px;        /* for the same width*/
-  text-align: center;
-  background-color: #f8d7e4;   /* pink - box color*/
-  color: #000;
-  border: 2px solid #000;     /* black outline */
-  transition: 0.2s ease;
+  border-bottom: 1.5px solid rgba(255, 255, 255, .3);
+  padding-bottom: 2px;
+  transition: border-color .18s ease;
+}
+.k-footer-links a:hover { border-bottom-color: var(--pink); color: #fff; }
+
+/* ---------------------------------------------------------- responsive --- */
+
+@media (max-width: 900px) {
+  .k-hero { padding-top: 3rem; padding-bottom: 3rem; margin-bottom: 2.75rem; }
+  .k-hero-inner { flex-direction: column-reverse; align-items: flex-start; gap: 1.75rem; }
+  .k-photo { width: 150px; height: 150px; }
+  .k-photo-wrap::before { inset: 10px -10px -10px 10px; }
+  .k-eyebrow { font-size: .7rem; letter-spacing: .06em; }
+  .k-section-head { flex-direction: column; align-items: flex-start; gap: .3rem; }
+  .k-hint { white-space: normal; }
+  .k-footer-inner { flex-direction: column; align-items: flex-start; }
 }
 
-/* Hover effect */
-.hero-button:hover {
-  background-color: #f5bfd4;   
-}
-
-/* so the buttons all on the same line */
-.button-row {
-  text-align: center;     
-  white-space: nowrap;    
-}
-
-/* Add consistent spacing above and below all project headers */
-.projects-page h2 {
-  margin-top: 3rem !important;   /* space ABOVE each section */
-  margin-bottom: 1.2rem !important;  /* space BELOW each section */
-}
-
-/* Optional: add spacing above the horizontal rules */
-.projects-page hr {
-  margin-top: 2.5rem !important;
-  margin-bottom: 2.5rem !important;
-}
-
-/* Remove huge extra space above project section dividers */
-hr.quarto-hr {
-  margin-top: 0.5rem;      /* reduce space ABOVE header */
-  margin-bottom: 1rem;     /* clean spacing below */
+@media (prefers-reduced-motion: reduce) {
+  * { transition: none !important; animation: none !important; }
 }
