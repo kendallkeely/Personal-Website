@@ -9,7 +9,7 @@ description: "Statistics & Data Science graduate from UCLA. Spatial modeling, no
     <div class="k-hero-text">
       <span class="k-eyebrow">Statistics &amp; Data Science · UCLA '26</span>
       <h1>Hi, I'm <span class="gradient-text">Kendall</span>.</h1>
-      <p class="k-lede">I turn messy, real-world data into things people can actually decide with <strong>spatial models</strong> of the LA office market, <strong>pricing analysis</strong> across four states, <strong>nonparametric tests</strong> on twenty years of policy data. Mostly in SQL, Python &amp; R, always reproducible.</p>
+      <p class="k-lede">I turn messy, real-world data into tangible insights people can actually utilize, such as <strong>spatial models</strong> of the LA office market, <strong>pricing analysis</strong> across four states, and <strong>nonparametric tests</strong> on twenty years of policy data. Mostly in SQL, Python &amp; R, always reproducible.</p>
       <div class="k-buttons">
         <a class="btn-k primary" href="Kendall_Resume_June_2026.pdf">Download résumé</a>
         <a class="btn-k" href="projects.html">See my work</a>
