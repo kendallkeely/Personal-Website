@@ -220,22 +220,22 @@ a.inline:hover{background:var(--pink);color:#fff}
 /* full-bleed plum band, matching the headline block */
 .contact{
   background:var(--plum);
-  margin-top:4.5rem;
+  margin-top:3.75rem;
   margin-inline:calc(50% - 50vw);
-  padding:3.5rem 0 2.25rem;
+  padding:2.4rem 0 1.5rem;
 }
-.contact .sec-label{color:#ff9ec6}
+.contact .sec-label{color:#ff9ec6;margin-bottom:.8rem}
 .contact h2{
-  font-family:var(--sans);font-weight:800;font-size:clamp(1.8rem,3.6vw,2.4rem);
-  letter-spacing:-.035em;margin-bottom:.5rem;color:#fff;
+  font-family:var(--sans);font-weight:800;font-size:clamp(1.5rem,2.8vw,1.85rem);
+  letter-spacing:-.035em;margin-bottom:.35rem;color:#fff;
 }
-.contact>.wrap>p{color:#bfb1ce;margin-bottom:1.75rem;font-size:1.06rem}
+.contact>.wrap>p{color:#bfb1ce;margin-bottom:1.3rem;font-size:.99rem}
 
 .foot-line{
   display:flex;justify-content:space-between;flex-wrap:wrap;gap:.75rem;
-  margin-top:2.75rem;padding-top:1.35rem;
+  margin-top:1.7rem;padding-top:1rem;
   border-top:1px solid rgba(255,255,255,.13);
-  font-family:var(--sans);font-size:.78rem;color:#9c90ad;
+  font-family:var(--sans);font-size:.76rem;color:#9c90ad;
 }
 
 .lk{
@@ -249,20 +249,20 @@ a.inline:hover{background:var(--pink);color:#fff}
 .lk.solid:hover{background:var(--pink-deep);border-color:var(--pink-deep);color:#fff !important}
 
 /* icon buttons */
-.iconrow{display:flex;flex-wrap:wrap;gap:1.4rem;margin-top:.25rem}
+.iconrow{display:flex;flex-wrap:wrap;gap:1rem;margin-top:0}
 /* icon buttons sit on the dark band */
 .ib{
-  display:flex;flex-direction:column;align-items:center;gap:.6rem;
-  text-decoration:none;color:#cbbfd6 !important;width:76px;
+  display:flex;flex-direction:column;align-items:center;gap:.42rem;
+  text-decoration:none;color:#cbbfd6 !important;width:62px;
 }
 .ib .disc{
-  width:56px;height:56px;border-radius:50%;
+  width:42px;height:42px;border-radius:50%;
   display:grid;place-items:center;
   background:rgba(255,255,255,.06);border:1.5px solid rgba(255,255,255,.17);
   transition:background .2s ease,border-color .2s ease,transform .2s ease,box-shadow .2s ease;
 }
-.ib svg{width:24px;height:24px;fill:#fff;transition:fill .2s ease}
-.ib .cap{font-family:var(--sans);font-size:.79rem;font-weight:600;text-align:center;transition:color .2s ease}
+.ib svg{width:18px;height:18px;fill:#fff;transition:fill .2s ease}
+.ib .cap{font-family:var(--sans);font-size:.73rem;font-weight:600;text-align:center;transition:color .2s ease}
 .ib:hover .disc{
   background:var(--pink);border-color:var(--pink);
   transform:translateY(-3px);box-shadow:0 10px 24px #e5286f4d;
