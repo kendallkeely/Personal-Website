@@ -73,8 +73,8 @@ description: "Statistics & Data Science graduate from UCLA and Solutions Special
 <section class="about" id="about">
   <div class="wrap">
     <div class="sec-label">About</div>
-    <p>Growing up in San Francisco, gaming was how I connected with family and friends, and it's still where a lot of my ideas start. It's why my favorite project is built around a game.</p>
-    <p>These days I'm in Chicago with my cat, trying every restaurant I can find and playing as much mahjong as I can. And yes, I'll still defend ggplot2 to anyone who asks.</p>
+    <p>These are just some of the projects I've worked on, but they say a lot about how I like to work. I'm drawn to data because there's always something deeper than the surface level, and I love digging in until it finally makes sense. Building is my favorite way to learn, so I'm usually in the middle of something new and figuring it out as I go.</p>
+    <p>Outside of work, you'll find me exploring Chicago's restaurants, hanging out with my cat, or at a mahjong table. If something here caught your eye, I'd love to <a class="inline" href="#contact">chat</a>.</p>
     <div class="bits">
       <span class="bit">🐱 cat mom</span>
       <span class="bit">🏙️ Chicago</span>
