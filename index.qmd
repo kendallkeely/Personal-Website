@@ -74,7 +74,7 @@ description: "Statistics & Data Science graduate from UCLA and Solutions Special
   <div class="wrap">
     <div class="sec-label">About</div>
     <p>I came to data because I like problems where the answer isn't obvious until you clean the thing up and look at it properly. What I care about is whether the work actually changes a decision. A model or a dashboard only matters if someone can act on it.</p>
-    <p>At <mark>Databricks</mark> I get to work on problems with real stakes every day. Outside of work I'm still building: the Player Intelligence Platform started as a way to teach myself Databricks Apps.</p>
+    <p>I like taking a question all the way from raw data to something people can actually click through and use. The way I learn a new tool is by building something I care about with it, which is how a battle-royale game I made up ended up with its own <mark>churn platform</mark>.</p>
     <div class="bits">
       <span class="bit">🐱 cat mom</span>
       <span class="bit">🏙️ Chicago</span>
