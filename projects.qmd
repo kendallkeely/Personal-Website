@@ -11,7 +11,7 @@ description: "Selected data science work: spatial analysis of LA commercial real
       <h1>Projects<span>.</span><span class="cursor" aria-hidden="true"></span></h1>
     </div>
 
-    <p class="intro">Projects that pushed me in different directions — five production apps shipped during my <mark class="soft">Databricks</mark> internship, an end-to-end passion project built on the same platform, speed and collaboration under a <mark class="soft">48-hour</mark> clock, business decision support with real money attached, and careful statistical inference on messy public data.</p>
+    <p class="intro">Projects that pushed me in different directions — a passion project I built to learn <mark class="soft">Databricks</mark> Apps, five production apps shipped during my Databricks internship, speed and collaboration under a <mark class="soft">48-hour</mark> clock, business decision support with real money attached, and careful statistical inference on messy public data.</p>
 
     <hr class="rule">
   </div>
@@ -19,6 +19,35 @@ description: "Selected data science work: spatial analysis of LA commercial real
 
 <section class="sec">
   <div class="wrap">
+
+    <div class="proj" id="player-intelligence">
+      <div class="proj-cover">
+        <video controls preload="none" playsinline poster="images/player-intelligence.jpg">
+          <source src="videos/player-intelligence.mp4" type="video/mp4">
+        </video>
+      </div>
+      <h2>The Player Intelligence Platform</h2>
+      <div class="proj-meta">
+        <span class="chip role">Passion project · Databricks App</span>
+        <span class="chip">Databricks Apps</span>
+        <span class="chip">Unity Catalog</span>
+        <span class="chip">SQL Warehouse</span>
+        <span class="chip">dbldatagen</span>
+        <span class="chip">SQL</span>
+        <span class="chip">Python</span>
+      </div>
+      <p>I built this to teach myself <b>Databricks Apps</b> by taking everything I like about Databricks and pointing it at something I love outside of work: gaming. It's an end-to-end demo built around a fictional live-service battle-royale game at realistic scale. The <b>50,000-player sample</b> stands in for a title with 400M+ accounts, with 2M matches played in a week.</p>
+      <p>On the surface everything looks healthy: revenue is up and players are spending. Underneath, the game is quietly losing its most valuable players. There's no cancellation event and no warning; they just stop. The app walks through five chapters: find the players about to leave, prove what they're worth, and show what catching them is worth to the business.</p>
+      <ul>
+        <li>Generated all of the data synthetically with <b>dbldatagen</b>, with free-to-play spending patterns calibrated to published industry survey data</li>
+        <li>Modeled four linked tables (players, matches, purchases, and match stats with MMR and rank) and governed them in <b>Unity Catalog</b></li>
+        <li>Served the front end as a <b>Databricks App</b>, with every figure queried live from a <b>SQL Warehouse</b></li>
+        <li>Surfaced the ~7.9K players who have stopped playing and may leave for good</li>
+        <li>Added "choose your character" views that tailor the story for a LiveOps analyst, economy designer, data engineer, or finance lead</li>
+      </ul>
+      <div class="pull"><b>Tools I used:</b> Databricks Apps · Unity Catalog · Databricks SQL Warehouse · dbldatagen · SQL · Python</div>
+      <p class="note">Recording of the platform above — press play for a walkthrough.</p>
+    </div>
 
     <div class="proj" id="databricks-internship">
       <div class="proj-cover">
@@ -45,30 +74,6 @@ description: "Selected data science work: spatial analysis of LA commercial real
       </ul>
       <div class="pull"><b>What I took from it:</b> I came in technical and spent the summer growing the business side — sales instinct and strategy. The best tools came from shipping on real feedback, often turning a partner's feature request into a live change the same week.</div>
       <p class="note">Recording of my internship readout above — press play for a walkthrough.</p>
-    </div>
-
-    <div class="proj" id="player-intelligence">
-      <div class="proj-cover">
-        <video controls preload="none" playsinline poster="images/player-intelligence.jpg">
-          <source src="videos/player-intelligence.mp4" type="video/mp4">
-        </video>
-      </div>
-      <h2>The Player Intelligence Platform</h2>
-      <div class="proj-meta">
-        <span class="chip role">Passion project · Databricks App</span>
-        <span class="chip">Databricks</span>
-        <span class="chip">SQL</span>
-        <span class="chip">Churn analysis</span>
-        <span class="chip">Data storytelling</span>
-      </div>
-      <p>A fictional battle-royale game at realistic scale — a <b>50,000-player sample</b> standing in for a title with 400M+ accounts, with 2M matches played in a week. On the surface everything looks healthy: revenue up, players spending. Underneath, the game is quietly losing its most valuable players. There's no cancellation event and no warning; they just stop.</p>
-      <p>I built the platform as a Databricks App that walks through five chapters: find the players about to leave, prove what they're worth, and show what catching them is worth to the business. Every figure is queried live from the underlying tables.</p>
-      <ul>
-        <li>Modeled four linked tables: players, matches, purchases, and match stats (MMR and rank)</li>
-        <li>Surfaced the ~7.9K players who have stopped playing and may leave for good</li>
-        <li>"Choose your character" views tailor the story for a LiveOps analyst, economy designer, data engineer, or finance lead</li>
-      </ul>
-      <p class="note">Recording of the platform above — press play for a walkthrough.</p>
     </div>
 
     <div class="proj" id="datafest">
