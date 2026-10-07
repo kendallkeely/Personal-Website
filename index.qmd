@@ -1,6 +1,6 @@
 ---
 pagetitle: "Kendall Keely — Statistics & Data Science"
-description: "Statistics & Data Science graduate from UCLA. Spatial modeling, pricing analysis, and nonparametric testing in SQL, Python and R."
+description: "Statistics & Data Science graduate from UCLA and Solutions Specialist at Databricks."
 ---
 
 ```{=html}
@@ -11,7 +11,7 @@ description: "Statistics & Data Science graduate from UCLA. Spatial modeling, pr
       <h1>Hello, I'm Kendall<span>.</span><span class="cursor" aria-hidden="true"></span></h1>
     </div>
 
-    <p class="intro">I'm a <mark>Statistics &amp; Data Science</mark> graduate from UCLA with a Mathematics minor, originally from San Francisco. I turn messy, real-world data into tangible insights people can actually utilize — spatial models of the LA office market, pricing analysis across four states, and nonparametric tests on twenty years of policy data.</p>
+    <p class="intro">I'm a <mark>Statistics &amp; Data Science</mark> graduate from UCLA with a Mathematics minor, originally from San Francisco and now based in Chicago. Today I'm a Solutions Specialist at <mark>Databricks</mark>. I turn messy, real-world data into tangible insights people can actually utilize — most recently a player-churn platform built on Databricks Apps and five production apps for Databricks' partner and sales teams.</p>
 
     <p class="intro">Mostly in <mark class="soft">SQL</mark> <mark class="soft">Python</mark> <mark class="soft">R</mark>, always reproducible. Take a look at <a class="inline" href="projects.html">my work</a>, read a bit <a class="inline" href="#about">about me</a>, see the <a class="inline" href="#tools">tools I work with</a>, or <a class="inline" href="#contact">get in touch</a>.</p>
 
@@ -73,8 +73,8 @@ description: "Statistics & Data Science graduate from UCLA. Spatial modeling, pr
 <section class="about" id="about">
   <div class="wrap">
     <div class="sec-label">About</div>
-    <p>I came to data because I like problems where the answer isn't obvious until you clean the thing up and look at it properly. What I care about is whether an analysis actually changes a decision — on my Storage Star internship, the sensitivity analysis mattered more to the people reading my report than the fitted coefficients did.</p>
-    <p>I currently work at <mark>Databricks</mark> as a <mark>Solutions Specialist</mark>, where I get to keep working on problems with real stakes.</p>
+    <p>I came to data because I like problems where the answer isn't obvious until you clean the thing up and look at it properly. What I care about is whether the work actually changes a decision. A model or a dashboard only matters if someone can act on it.</p>
+    <p>At <mark>Databricks</mark> I get to work on problems with real stakes every day. Outside of work I'm still building: the Player Intelligence Platform started as a way to teach myself Databricks Apps.</p>
     <div class="bits">
       <span class="bit">🐱 cat mom</span>
       <span class="bit">🏙️ Chicago</span>
