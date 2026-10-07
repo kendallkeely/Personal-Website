@@ -11,7 +11,7 @@ description: "Selected data science work: spatial analysis of LA commercial real
       <h1>Projects<span>.</span><span class="cursor" aria-hidden="true"></span></h1>
     </div>
 
-    <p class="intro">Projects that pushed me in different directions — an end-to-end app built on the <mark class="soft">Databricks</mark> platform, speed and collaboration under a <mark class="soft">48-hour</mark> clock, business decision support with real money attached, and careful statistical inference on messy public data.</p>
+    <p class="intro">Projects that pushed me in different directions — five production apps shipped during my <mark class="soft">Databricks</mark> internship, an end-to-end passion project built on the same platform, speed and collaboration under a <mark class="soft">48-hour</mark> clock, business decision support with real money attached, and careful statistical inference on messy public data.</p>
 
     <hr class="rule">
   </div>
@@ -19,6 +19,33 @@ description: "Selected data science work: spatial analysis of LA commercial real
 
 <section class="sec">
   <div class="wrap">
+
+    <div class="proj" id="databricks-internship">
+      <div class="proj-cover">
+        <video controls preload="none" playsinline poster="images/databricks-internship.jpg">
+          <source src="videos/databricks-internship.mp4" type="video/mp4">
+        </video>
+      </div>
+      <h2>A Summer of Building: Five Production Databricks Apps</h2>
+      <div class="proj-meta">
+        <span class="chip role">Partner Sales Intern · Databricks · Summer 2026</span>
+        <span class="chip">Databricks Apps</span>
+        <span class="chip">FastAPI</span>
+        <span class="chip">Gmail API</span>
+        <span class="chip">Google Sheets</span>
+        <span class="chip">HTML/CSS</span>
+      </div>
+      <p>I spent summer 2026 on Databricks' <b>Partner Strategy &amp; Ops</b> team as a Partner Sales intern. Over the summer I built, deployed, and iterated on five Databricks Apps that gave partner and sales teams visibility they didn't have before — each one designed hand-in-hand with the people who'd actually use it.</p>
+      <ul>
+        <li><b>Partner EBC Kit</b> — a partner-facing hub for running Executive Briefing Centers: approved decks, live demos from the Partner Demo Catalog, build-your-own guides, and feedback surveys. Reframed the program from "how to run an EBC" to "how to feature Databricks in one."</li>
+        <li><b>Partner FAQ Gap Console</b> — a FAQ chatbot paired with a "Logged Gaps" console: every question the bot can't answer is routed to an SME, and the answer is fed back into the corpus so it doesn't fail the same way twice.</li>
+        <li><b>Partner Inbox Discovery Dashboard</b> — email volume, top senders, themes, and SLA across three partner inboxes, auto-refreshed from Gmail every 15 minutes.</li>
+        <li><b>Partner Ops Inbox Dashboard</b> — request-type routing across 13 categories, per-person assignment and reassignment, and full assignment history for the partner-ops and DCIF queues.</li>
+        <li><b>PayG SDR Outreach Dashboard</b> — pipeline visibility for 5 SDRs across 138 pay-as-you-go accounts, synced live from a Google Sheet.</li>
+      </ul>
+      <div class="pull"><b>What I took from it:</b> I came in technical and spent the summer growing the business side — sales instinct and strategy. The best tools came from shipping on real feedback, often turning a partner's feature request into a live change the same week.</div>
+      <p class="note">Recording of my internship readout above — press play for a walkthrough.</p>
+    </div>
 
     <div class="proj" id="player-intelligence">
       <div class="proj-cover">
