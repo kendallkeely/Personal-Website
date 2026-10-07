@@ -11,7 +11,7 @@ description: "Selected data science work: spatial analysis of LA commercial real
       <h1>Projects<span>.</span><span class="cursor" aria-hidden="true"></span></h1>
     </div>
 
-    <p class="intro">Three projects that pushed me in different directions — speed and collaboration under a <mark class="soft">48-hour</mark> clock, business decision support with real money attached, and careful statistical inference on messy public data.</p>
+    <p class="intro">Projects that pushed me in different directions — an end-to-end app built on the <mark class="soft">Databricks</mark> platform, speed and collaboration under a <mark class="soft">48-hour</mark> clock, business decision support with real money attached, and careful statistical inference on messy public data.</p>
 
     <hr class="rule">
   </div>
@@ -19,6 +19,30 @@ description: "Selected data science work: spatial analysis of LA commercial real
 
 <section class="sec">
   <div class="wrap">
+
+    <div class="proj" id="player-intelligence">
+      <div class="proj-cover">
+        <video controls preload="none" playsinline poster="images/player-intelligence.jpg">
+          <source src="videos/player-intelligence.mp4" type="video/mp4">
+        </video>
+      </div>
+      <h2>The Player Intelligence Platform</h2>
+      <div class="proj-meta">
+        <span class="chip role">Passion project · Databricks App</span>
+        <span class="chip">Databricks</span>
+        <span class="chip">SQL</span>
+        <span class="chip">Churn analysis</span>
+        <span class="chip">Data storytelling</span>
+      </div>
+      <p>A fictional battle-royale game at realistic scale — a <b>50,000-player sample</b> standing in for a title with 400M+ accounts, with 2M matches played in a week. On the surface everything looks healthy: revenue up, players spending. Underneath, the game is quietly losing its most valuable players. There's no cancellation event and no warning; they just stop.</p>
+      <p>I built the platform as a Databricks App that walks through five chapters: find the players about to leave, prove what they're worth, and show what catching them is worth to the business. Every figure is queried live from the underlying tables.</p>
+      <ul>
+        <li>Modeled four linked tables: players, matches, purchases, and match stats (MMR and rank)</li>
+        <li>Surfaced the ~7.9K players who have stopped playing and may leave for good</li>
+        <li>"Choose your character" views tailor the story for a LiveOps analyst, economy designer, data engineer, or finance lead</li>
+      </ul>
+      <p class="note">Recording of the platform above — press play for a walkthrough.</p>
+    </div>
 
     <div class="proj" id="datafest">
       <div class="proj-cover">
@@ -106,7 +130,6 @@ description: "Selected data science work: spatial analysis of LA commercial real
   <div class="wrap">
     <div class="sec-label">Contact</div>
     <h2>Let's connect.</h2>
-    <p>Open to analytics, strategy, engineering, and BDR roles.</p>
     <div class="iconrow">
       <a class="ib" href="mailto:kkeely04@gmail.com" aria-label="Email Kendall">
         <span class="disc"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20 4H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2Zm0 4.4-8 5-8-5V6l8 5 8-5v2.4Z"/></svg></span>
