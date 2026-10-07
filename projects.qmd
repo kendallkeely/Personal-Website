@@ -11,7 +11,7 @@ description: "Selected data science work: spatial analysis of LA commercial real
       <h1>Projects<span>.</span><span class="cursor" aria-hidden="true"></span></h1>
     </div>
 
-    <p class="intro">Projects that pushed me in different directions — a passion project I built to learn <mark class="soft">Databricks</mark> Apps, five production apps shipped during my Databricks internship, speed and collaboration under a <mark class="soft">48-hour</mark> clock, business decision support with real money attached, and careful statistical inference on messy public data.</p>
+    <p class="intro">Projects that pushed me in different directions — a passion project I built to learn the <mark class="soft">Databricks</mark> platform, five production apps shipped during my Databricks internship, speed and collaboration under a <mark class="soft">48-hour</mark> clock, business decision support with real money attached, and careful statistical inference on messy public data.</p>
 
     <hr class="rule">
   </div>
