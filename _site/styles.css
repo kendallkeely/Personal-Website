@@ -227,7 +227,7 @@ a.inline:hover{background:var(--pink);color:#fff}
 .contact .sec-label{color:#ff9ec6;margin-bottom:.8rem}
 .contact h2{
   font-family:var(--sans);font-weight:800;font-size:clamp(1.5rem,2.8vw,1.85rem);
-  letter-spacing:-.035em;margin-bottom:.35rem;color:#fff;
+  letter-spacing:-.035em;margin-bottom:1.4rem;color:#fff;
 }
 .contact>.wrap>p{color:#bfb1ce;margin-bottom:1.3rem;font-size:.99rem}
 
@@ -249,7 +249,7 @@ a.inline:hover{background:var(--pink);color:#fff}
 .lk.solid:hover{background:var(--pink-deep);border-color:var(--pink-deep);color:#fff !important}
 
 /* icon buttons */
-.iconrow{display:flex;flex-wrap:wrap;gap:1rem;margin-top:0}
+.iconrow{display:flex;flex-wrap:wrap;gap:1rem;margin-top:0;margin-left:-10px}
 /* icon buttons sit on the dark band */
 .ib{
   display:flex;flex-direction:column;align-items:center;gap:.42rem;
